@@ -1,0 +1,122 @@
+{
+    "Natural Language Processing Feature Extraction": [
+        "Natural Language Processing Feature Extraction"
+    ],
+    "Natural Language Processing Sentence Similarity": [
+        "Natural Language Processing Sentence Similarity"
+    ],
+    "Multimodal Feature Extraction": [
+        "Multimodal Feature Extraction"
+    ],
+    "Natural Language Processing Text Generation": [
+        "Natural Language Processing Text Generation"
+    ],
+    "Computer Vision Image Classification": [
+        "Computer Vision Image Classification"
+    ],
+    "Audio Automatic Speech Recognition": [
+        "Audio Automatic Speech Recognition"
+    ],
+    "Natural Language Processing Question Answering": [
+        "Natural Language Processing Question Answering"
+    ],
+    "Natural Language Processing Token Classification": [
+        "Natural Language Processing Token Classification"
+    ],
+    "Computer Vision Video Classification": [
+        "Computer Vision Video Classification"
+    ],
+    "Multimodal Text-to-Image": [
+        "Multimodal Text-to-Image"
+    ],
+    "Multimodal Image-to-Text": [
+        "Multimodal Image-to-Text"
+    ],
+    "Multimodal Visual Question Answering": [
+        "Multimodal Visual Question Answering"
+    ],
+    "Multimodal Text-to-Video": [
+        "Multimodal Text-to-Video"
+    ],
+    "Multimodal Document Question Answer": [
+        "Multimodal Document Question Answer"
+    ],
+    "Multimodal Document Question Answering": [
+        "Multimodal Document Question Answering"
+    ],
+    "Multimodal Graph Machine Learning": [
+        "Multimodal Graph Machine Learning"
+    ],
+    "Computer Vision Depth Estimation": [
+        "Computer Vision Depth Estimation"
+    ],
+    "Computer Vision Object Detection": [
+        "Computer Vision Object Detection"
+    ],
+    "Computer Vision Image Segmentation": [
+        "Computer Vision Image Segmentation"
+    ],
+    "Computer Vision Image-to-Image": [
+        "Computer Vision Image-to-Image"
+    ],
+    "Computer Vision Unconditional Image Generation": [
+        "Computer Vision Unconditional Image Generation"
+    ],
+    "Computer Vision Zero-Shot Image Classification": [
+        "Computer Vision Zero-Shot Image Classification"
+    ],
+    "Natural Language Processing Zero-Shot Classification": [
+        "Natural Language Processing Zero-Shot Classification"
+    ],
+    "Multimodal Zero-Shot Image Classification": [
+        "Multimodal Zero-Shot Image Classification"
+    ],
+    "Natural Language Processing Text Classification": [
+        "Natural Language Processing Text Classification"
+    ],
+    "Natural Language Processing Table Question Answering": [
+        "Natural Language Processing Table Question Answering"
+    ],
+    "Natural Language Processing Translation": [
+        "Natural Language Processing Translation"
+    ],
+    "Natural Language Processing Text2Text Generation": [
+        "Natural Language Processing Text2Text Generation"
+    ],
+    "Natural Language Processing Summarization": [
+        "Natural Language Processing Summarization"
+    ],
+    "Natural Language Processing Conversational": [
+        "Natural Language Processing Conversational"
+    ],
+    "Natural Language Processing Fill-Mask": [
+        "Natural Language Processing Fill-Mask"
+    ],
+    "Audio Text-to-Speech": [
+        "Audio Text-to-Speech"
+    ],
+    "Audio Voice Activity Detection": [
+        "Audio Voice Activity Detection"
+    ],
+    "Audio Audio-to-Audio": [
+        "Audio Audio-to-Audio"
+    ],
+    "Audio Audio Classification": [
+        "Audio Audio Classification"
+    ],
+    "Audio Classification": [
+        "Audio Classification"
+    ],
+    "Tabular Tabular Classification": [
+        "Tabular Tabular Classification"
+    ],
+    "Tabular Tabular Regression": [
+        "Tabular Tabular Regression"
+    ],
+    "Reinforcement Learning": [
+        "Reinforcement Learning"
+    ],
+    "Reinforcement Learning Robotics": [
+        "Reinforcement Learning Robotics"
+    ]
+}
