@@ -26,6 +26,7 @@ parser.add_argument('--do_eval', default=1, type=int)
 parser.add_argument('--api', default=1, type=int)
 parser.add_argument('--device', default=0, type=int)
 parser.add_argument('--retriever_topk', default=5, type=int)
+parser.add_argument('--output_dir', default='output', type=str)
 args = parser.parse_args()
 
 set_api(args)

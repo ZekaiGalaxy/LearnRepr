@@ -43,9 +43,11 @@ def set_model(args):
         # llama3_tokenizer = AutoTokenizer.from_pretrained(llama3_path, padding_side="left")
         # llama3 = AutoModelForCausalLM.from_pretrained(llama3_path, torch_dtype=torch.bfloat16).to(device)
     if args.embedding == 'gte-small':
-        path = 'gte-small'
-        tokenizer = AutoTokenizer.from_pretrained(path)
-        embedding_model = AutoModel.from_pretrained(path, trust_remote_code=True).to(device)
+        pass
+        # path = 'gte-small'
+        # # path = '/vepfs/wcf/G/zekai/models/gte-small'
+        # tokenizer = AutoTokenizer.from_pretrained(path)
+        # embedding_model = AutoModel.from_pretrained(path, trust_remote_code=True).to(device)
     elif args.embedding == 'gte-large':
         raise ValueError("Not implemented")
     elif args.embedding == 'sfr':

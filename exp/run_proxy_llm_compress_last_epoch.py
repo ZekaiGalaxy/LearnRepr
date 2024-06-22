@@ -28,6 +28,7 @@ parser.add_argument('--device', default=0, type=int)
 parser.add_argument('--retriever_topk', default=5, type=int)
 parser.add_argument('--compress', default=2, type=int) # use embedding merge
 parser.add_argument('--k_slots', default=10, type=int)
+parser.add_argument('--output_dir', default='output', type=str)
 args = parser.parse_args()
 
 set_api(args)

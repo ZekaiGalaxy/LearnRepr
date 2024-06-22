@@ -15,6 +15,7 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', default='tensorflow', choices=['tensorflow','torchhub','huggingface','lamp7'])
 parser.add_argument('--model', default='gpt4', type=str)
+parser.add_argument('--choice_model', default='gpt4', type=str)
 parser.add_argument('--embedding', default='gte-small', type=str)
 parser.add_argument('--exp_name', default='ape_gte', type=str)
 parser.add_argument('--num_epoch', default=10, type=int)

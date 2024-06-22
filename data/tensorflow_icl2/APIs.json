@@ -1,0 +1,13 @@
+[
+    "Text embedding",
+    "Image feature vector",
+    "Image classification",
+    "Image Frame Interpolation",
+    "Image pose detection",
+    "Audio embedding",
+    "Text preprocessing",
+    "Image object detection",
+    "Video classification",
+    "Audio Speech-to-Text",
+    "Audio event classification"
+]

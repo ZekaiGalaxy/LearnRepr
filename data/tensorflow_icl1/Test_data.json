@@ -1,0 +1,68 @@
+[
+    {
+        "prompt": "Instruction: Write an example code to use a pre-trained model to convert a sentence \"My cat is sitting on the porch\" into high-dimensional vectors.\n###Input: My cat is sitting on the porch",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: There is a need to segment images of a park area with trees and people, and distinguish the trees from people.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am planning my garden, please help me segment plants in an image for better landscape planning.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction: Could you help me to find a quick way to rate similarities between my blog posts?",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I took a picture of a street and want to separate the vehicles, people, and buildings in the scene.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction: I took a photo of my friends playing soccer. I am making a collage and we need to remove the background from the photo, segmenting the players in the image.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to separate different objects in an image, like differentiate the road, house and tree.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction: There are a bunch of user reviews about our new product, and we need assistance categorizing them into different sentiments.",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I'm planning to do sentiment analysis on a bunch of news articles. Help me convert the article content to 20-dimensional vectors.",
+        "completion": [
+            "Text language model"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to analyze product reviews and create a classifier to automatically sort them based on their positive or negative sentiment.",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We just took many different images of the front of a house and want to isolate the windows part from the whole image.",
+        "completion": [
+            "Image segmentation"
+        ]
+    }
+]

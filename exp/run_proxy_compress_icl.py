@@ -18,8 +18,9 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', default='tensorflow', choices=['tensorflow','torchhub','huggingface','lamp7'])
 parser.add_argument('--model', default='gpt4', type=str)
+parser.add_argument('--choice_model', default='gpt4', type=str)
 parser.add_argument('--embedding', default='gte-small', type=str)
-parser.add_argument('--exp_name', default='proxy_ss', type=str)
+parser.add_argument('--exp_name', default='proxy_compress_icl', type=str)
 parser.add_argument('--num_epoch', default=10, type=int)
 parser.add_argument('--do_train', default=1, type=int)
 parser.add_argument('--do_eval', default=1, type=int)
@@ -29,6 +30,7 @@ parser.add_argument('--retriever_topk', default=10, type=int)
 parser.add_argument('--compress', default=1, type=int) # use embedding merge
 parser.add_argument('--k_slots', default=10, type=int)
 parser.add_argument('--icl_rate', default=10, type=int)
+parser.add_argument('--output_dir', default='output', type=str)
 args = parser.parse_args()
 
 set_api(args)
