@@ -9,7 +9,7 @@ import argparse
 import os
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', default='tensorflow')
-parser.add_argument('--embedding', default='gte-small')
+parser.add_argument('--embedding', default='ada')
 args = parser.parse_args()
 
 API_test_data = load_file(f"data/{args.task}/API_test_data.json")
