@@ -1,35 +1,81 @@
 {
+    "Text language model": [
+        "Text language model",
+        "Pattern: Embeddings Creation\n  - Description: The process of converting text into numerical representations.\n  - Cases:\n    - create embeddings\n    - work out the embeddings\n    - Transform these news article's headlines into numerical vectors"
+    ],
     "Text embedding": [
-        "Text embedding"
+        "Text embedding",
+        "Pattern: Vector Conversion\n  - Description: Converting text data into numerical vector representations.\n  - Cases:\n    - convert text to vectors\n    - transform sentences into numerical format\n    - represent paragraphs as vectors\n\n",
+        "Pattern: Semantic Similarity\n  - Description: Measuring the similarity between two pieces of text based on their embeddings.\n  - Cases:\n    - compare text similarity\n    - find similar sentences\n    - measure similarity between paragraphs\n\n",
+        "Pattern: Dimensionality Reduction\n  - Description: Reducing the dimensionality of text embeddings to visualize or analyze them more easily.\n  - Cases:\n    - reduce dimensions of text embeddings\n    - apply PCA to embeddings\n    - visualize text embeddings in 2D\n\n"
     ],
     "Image feature vector": [
-        "Image feature vector"
+        "Image feature vector",
+        "Pattern: Feature Extraction\n  - Description: The process of extracting important features from images to represent them as numerical vectors.\n  - Cases:\n    - extract features from images\n    - compute image feature vectors\n    - obtain numerical representations of images\n\n",
+        "Pattern: Image Similarity\n  - Description: Comparing images based on their feature vectors to determine similarity.\n  - Cases:\n    - find similar images\n    - compare image features\n    - measure image similarity\n\n",
+        "Pattern: Image Clustering\n  - Description: Grouping images based on their feature vectors to identify patterns or similarities.\n  - Cases:\n    - cluster images by features\n    - group similar images\n    - organize images into clusters\n\n"
     ],
     "Image classification": [
-        "Image classification"
+        "Image classification",
+        "Pattern: Object Recognition\n  - Description: Identifying and classifying objects within an image.\n  - Cases:\n    - classify objects in the image\n    - identify items in the photo\n    - detect objects in this picture\n\n",
+        "Pattern: Scene Classification\n  - Description: Determining the overall context or setting of an image.\n  - Cases:\n    - classify the scene in the image\n    - identify the setting of this photo\n    - determine the context of this picture\n\n",
+        "Pattern: Image Categorization\n  - Description: Assigning an image to one or more predefined categories.\n  - Cases:\n    - categorize this image\n    - assign a category to this photo\n    - label this picture with a category\n\n"
     ],
     "Image Frame Interpolation": [
-        "Image Frame Interpolation"
+        "Image Frame Interpolation",
+        "Pattern: Frame Rate Enhancement\n  - Description: Increasing the frame rate of a video or animation by generating intermediate frames.\n  - Cases:\n    - improve video frame rate\n    - enhance animation smoothness\n    - generate additional frames for slow-motion effect\n\n",
+        "Pattern: Motion Estimation\n  - Description: Estimating the motion between two consecutive frames in a video or animation.\n  - Cases:\n    - calculate motion vectors\n    - estimate object movement\n    - determine motion between frames\n\n",
+        "Pattern: Temporal Resolution Improvement\n  - Description: Enhancing the temporal resolution of a video or animation by generating intermediate frames.\n  - Cases:\n    - increase temporal resolution\n    - add frames for better time resolution\n    - improve video quality with more frames\n\n"
     ],
     "Image pose detection": [
-        "Image pose detection"
+        "Image pose detection",
+        "Pattern: Human Pose Estimation\n  - Description: Detecting and estimating the positions of human body parts in an image.\n  - Cases:\n    - estimate body part positions\n    - detect human poses\n    - identify joint locations\n\n",
+        "Pattern: Activity Recognition\n  - Description: Analyzing human poses to recognize specific activities or actions.\n  - Cases:\n    - recognize actions from poses\n    - identify activities based on body positions\n    - analyze human movements\n\n",
+        "Pattern: Posture Analysis\n  - Description: Evaluating the quality of a person's posture based on their pose in an image.\n  - Cases:\n    - assess posture quality\n    - evaluate body alignment\n    - analyze posture from image\n\n"
     ],
     "Audio embedding": [
-        "Audio embedding"
+        "Audio embedding",
+        "Pattern: Audio Feature Extraction\n  - Description: Extracting meaningful features from audio data for further analysis or processing.\n  - Cases:\n    - extract features from audio\n    - analyze audio data\n    - obtain audio features\n\n",
+        "Pattern: Audio Representation Conversion\n  - Description: Converting audio data into a different representation, such as numerical vectors or embeddings.\n  - Cases:\n    - convert audio to embeddings\n    - transform audio into numerical vectors\n    - represent audio as vectors\n\n",
+        "Pattern: Audio Similarity Analysis\n  - Description: Comparing audio files to determine their similarity based on their embeddings.\n  - Cases:\n    - compare audio files\n    - find similar audio\n    - analyze audio similarity\n\n"
     ],
     "Text preprocessing": [
-        "Text preprocessing"
+        "Text preprocessing",
+        "Pattern: Text Cleaning\n  - Description: Removing unwanted characters, symbols, or noise from the text.\n  - Cases:\n    - remove special characters\n    - eliminate HTML tags\n    - strip whitespace\n\n",
+        "Pattern: Tokenization\n  - Description: Breaking down the text into individual words or tokens.\n  - Cases:\n    - split text into words\n    - tokenize sentences\n    - break down paragraphs into tokens\n\n",
+        "Pattern: Stopword Removal\n  - Description: Eliminating common words that do not carry significant meaning.\n  - Cases:\n    - remove stopwords\n    - filter out common words\n    - eliminate unnecessary words\n\n"
     ],
     "Image object detection": [
-        "Image object detection"
+        "Image object detection",
+        "Pattern: Object Localization\n  - Description: Identifying the location of specific objects within an image.\n  - Cases:\n    - find the position of the car\n    - locate the person in the image\n    - detect the location of the dog\n\n",
+        "Pattern: Object Counting\n  - Description: Counting the number of instances of a specific object within an image.\n  - Cases:\n    - count the number of people\n    - how many cars are in the image\n    - find the total number of trees\n\n",
+        "Pattern: Object Recognition\n  - Description: Identifying and classifying objects within an image.\n  - Cases:\n    - recognize the objects in the image\n    - classify the items in the photo\n    - identify the objects present\n\n"
     ],
     "Video classification": [
-        "Video classification"
+        "Video classification",
+        "Pattern: Action Recognition\n  - Description: Identifying specific actions or activities performed in a video.\n  - Cases:\n    - classify the actions in this sports video\n    - detect activities in the surveillance footage\n    - recognize the dance moves in this performance\n\n",
+        "Pattern: Scene Classification\n  - Description: Categorizing the overall setting or environment of a video.\n  - Cases:\n    - determine the scene type in this movie clip\n    - classify the environment in this video\n    - identify the setting of this documentary footage\n\n",
+        "Pattern: Object Detection\n  - Description: Locating and identifying objects within a video.\n  - Cases:\n    - detect vehicles in this traffic video\n    - find animals in this wildlife footage\n    - locate the products in this advertisement\n\n"
     ],
     "Audio Speech-to-Text": [
-        "Audio Speech-to-Text"
+        "Audio Speech-to-Text",
+        "Pattern: Transcription Services\n  - Description: Converting spoken language into written text.\n  - Cases:\n    - transcribe this audio file\n    - convert speech to text\n    - transcribe the recorded meeting\n\n",
+        "Pattern: Voice Command Recognition\n  - Description: Identifying and processing voice commands from audio input.\n  - Cases:\n    - recognize voice commands\n    - process spoken instructions\n    - identify spoken commands in this audio\n\n",
+        "Pattern: Audio Content Analysis\n  - Description: Analyzing audio content to extract relevant information or insights.\n  - Cases:\n    - analyze the audio for keywords\n    - extract important information from the speech\n    - identify the main topics discussed in this audio\n\n"
     ],
     "Audio event classification": [
-        "Audio event classification"
+        "Audio event classification",
+        "Pattern: Sound Source Identification\n  - Description: Determining the source or origin of a specific sound within an audio clip.\n  - Cases:\n    - identify the sound source\n    - determine the origin of the sound\n    - recognize the source of this audio event\n\n",
+        "Pattern: Audio Scene Analysis\n  - Description: Analyzing an audio clip to understand the context or environment in which the sound was recorded.\n  - Cases:\n    - analyze the audio scene\n    - understand the context of this audio\n    - determine the environment of the sound\n\n",
+        "Pattern: Event Detection\n  - Description: Identifying specific events or occurrences within an audio clip.\n  - Cases:\n    - detect events in the audio\n    - find occurrences in the sound clip\n    - identify key events in this audio\n\n"
+    ],
+    "Text classification": [
+        "Text classification",
+        "Pattern: Model Utilization\n  - Description: Refers to the use of pre-trained or ready-to-use models for text classification tasks.\n  - Cases:\n    - pre-trained model\n    - ready-to-use model",
+        "Pattern: Similarity Detection\n  - Description: Finding similar questions or texts in a database.\n  - Cases:\n    - find similar questions in a large database of questions"
+    ],
+    "Image segmentation": [
+        "Image segmentation",
+        "Pattern: Identifying Regions of Interest\n  - Description: Finding specific areas or regions within a larger image that are of particular interest.\n  - Cases:\n    - find areas of potential interest\n    - identify different crop types"
     ]
 }

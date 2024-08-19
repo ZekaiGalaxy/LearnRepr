@@ -1,0 +1,222 @@
+{
+    "Natural Language Processing Feature Extraction": [
+        "Natural Language Processing Feature Extraction",
+        "Pattern: Feature Extraction\n  - Description: The process of extracting meaningful features from text data for analysis or further processing.\n  - Cases:\n    - extract text features\n    - text feature extraction\n    - create a text feature extraction pipeline"
+    ],
+    "Natural Language Processing Sentence Similarity": [
+        "Natural Language Processing Sentence Similarity",
+        "Pattern: Sentence Similarity Comparison\n  - Description: Comparing the similarity between two or more sentences to determine their relatedness.\n  - Cases:\n    - compare the similarity between two sentences\n    - find the similarity score between multiple sentences\n    - determine the relatedness of a set of sentences\n\n",
+        "Pattern: Text Summarization Evaluation\n  - Description: Evaluating the quality of a text summarization by comparing the similarity between the original text and the summary.\n  - Cases:\n    - evaluate the quality of a generated summary\n    - compare a summary to the original text for similarity\n    - assess the effectiveness of a text summarization algorithm\n\n",
+        "Pattern: Paraphrase Detection\n  - Description: Identifying whether two sentences are paraphrases of each other by comparing their similarity.\n  - Cases:\n    - detect if two sentences are paraphrases\n    - identify paraphrased sentences in a text\n    - find paraphrased sentence pairs in a dataset\n\n"
+    ],
+    "Multimodal Feature Extraction": [
+        "Multimodal Feature Extraction",
+        "Pattern: Text Feature Extraction\n  - Description: Extracting meaningful features from text for analysis or further processing.\n  - Cases:\n    - understand and analyze the main topics\n    - generate summaries for Russian articles\n    - extract features from a medical text\n    - analyze an input text according to the relations between sentences\n    - extract features from a piece of text in Russian",
+        "Pattern: Audio Feature Extraction\n  - Description: Extracting features from audio files for analysis or further processing.\n  - Cases:\n    - visualize it as a spectrogram\n    - analyze the source code written by developers\n    - analyze audio files to identify the type of content\n    - extract features from an audio sample\n    - analyze the audio data and extract relevant features"
+    ],
+    "Natural Language Processing Text Generation": [
+        "Natural Language Processing Text Generation",
+        "Pattern: Creative Writing Assistance\n  - Description: Generating creative text content based on user input or prompts.\n  - Cases:\n    - generate a short story based on a given theme\n    - create a poem about nature\n    - write a catchy slogan for a product\n\n",
+        "Pattern: Text Expansion\n  - Description: Expanding a given text or idea into a more detailed and comprehensive output.\n  - Cases:\n    - expand a summary into a full article\n    - elaborate on a given topic\n    - develop a brief idea into a detailed explanation\n\n",
+        "Pattern: Content Paraphrasing\n  - Description: Rewriting a given text in a different way while maintaining its original meaning.\n  - Cases:\n    - paraphrase a paragraph\n    - rewrite a sentence with different words\n    - rephrase a statement to avoid plagiarism\n\n"
+    ],
+    "Computer Vision Image Classification": [
+        "Computer Vision Image Classification",
+        "Pattern: Object Recognition\n  - Description: Identifying and classifying objects within an image.\n  - Cases:\n    - classify objects in a given image\n    - identify objects in a photo\n    - recognize objects in an image\n\n",
+        "Pattern: Scene Classification\n  - Description: Classifying images based on the type of scene they represent.\n  - Cases:\n    - classify an image as indoor or outdoor\n    - identify the type of environment in a photo\n    - determine the scene category of an image\n\n",
+        "Pattern: Animal Classification\n  - Description: Identifying and classifying animals within an image.\n  - Cases:\n    - classify an image of a bird species\n    - identify the type of animal in a photo\n    - recognize the breed of a dog in an image\n\n"
+    ],
+    "Audio Automatic Speech Recognition": [
+        "Audio Automatic Speech Recognition",
+        "Pattern: Transcription Services\n  - Description: Converting spoken language into written text using automatic speech recognition.\n  - Cases:\n    - transcribe a podcast episode\n    - convert an audio file to text\n    - transcribe a recorded meeting\n\n",
+        "Pattern: Voice Command Recognition\n  - Description: Identifying and processing voice commands in audio data.\n  - Cases:\n    - recognize voice commands in a smart home system\n    - process voice commands for a virtual assistant\n    - identify voice commands in a mobile app\n\n",
+        "Pattern: Language Identification\n  - Description: Detecting the language spoken in an audio file using automatic speech recognition.\n  - Cases:\n    - identify the language spoken in an audio clip\n    - detect the language of a recorded conversation\n    - recognize the language in a voice message\n\n"
+    ],
+    "Natural Language Processing Question Answering": [
+        "Natural Language Processing Question Answering",
+        "Pattern: Fact-Based Question Answering\n  - Description: Answering questions based on factual information provided in a given text.\n  - Cases:\n    - answer questions about a historical event\n    - find the answer to a question in a scientific article\n    - answer questions based on a news article\n\n",
+        "Pattern: Definition Question Answering\n  - Description: Providing definitions or explanations for terms or concepts mentioned in a given text.\n  - Cases:\n    - define a term from a technical document\n    - explain a concept from an academic paper\n    - provide a definition for a word in a legal document\n\n",
+        "Pattern: Inference-Based Question Answering\n  - Description: Answering questions that require making inferences or deductions based on the information provided in a given text.\n  - Cases:\n    - infer the cause of an event in a story\n    - deduce the relationship between characters in a novel\n    - predict the outcome of a situation based on a given scenario\n\n"
+    ],
+    "Natural Language Processing Token Classification": [
+        "Natural Language Processing Token Classification",
+        "Pattern: Named Entity Recognition\n  - Description: Identifying and classifying named entities in a given text.\n  - Cases:\n    - extract names of people from a text\n    - identify locations mentioned in a document\n    - find organizations in a news article\n\n",
+        "Pattern: Part-of-Speech Tagging\n  - Description: Assigning part-of-speech tags to words in a given text.\n  - Cases:\n    - tag words in a sentence with their part-of-speech\n    - analyze the grammatical structure of a text\n    - determine the role of each word in a sentence\n\n",
+        "Pattern: Sentiment Analysis\n  - Description: Identifying the sentiment or emotion expressed in a given text.\n  - Cases:\n    - classify the sentiment of a product review\n    - determine the emotion expressed in a tweet\n    - analyze the tone of a customer feedback\n\n"
+    ],
+    "Computer Vision Video Classification": [
+        "Computer Vision Video Classification",
+        "Pattern: Video Content Classification\n  - Description: Categorizing videos based on their content and context.\n  - Cases:\n    - classify videos into different genres\n    - categorize videos based on their content\n    - identify the main theme of a video\n\n",
+        "Pattern: Video Scene Detection\n  - Description: Identifying and classifying different scenes within a video.\n  - Cases:\n    - detect and classify scenes in a movie\n    - identify scene changes in a video\n    - classify scenes in a video based on their content\n\n",
+        "Pattern: Video Object Recognition\n  - Description: Recognizing and classifying objects within a video.\n  - Cases:\n    - identify objects in a video\n    - classify objects in a video based on their type\n    - recognize and categorize objects in a video\n\n"
+    ],
+    "Multimodal Text-to-Image": [
+        "Multimodal Text-to-Image",
+        "Pattern: Visual Storytelling\n  - Description: Generating images based on a narrative or story described in text.\n  - Cases:\n    - create an image depicting a scene from a story\n    - generate an illustration for a children's book\n    - visualize a scene from a novel\n\n",
+        "Pattern: Text-based Image Generation\n  - Description: Generating images based on textual descriptions or keywords.\n  - Cases:\n    - create an image of a \"sunset on a beach\"\n    - generate an image of a \"blue car in a parking lot\"\n    - visualize a \"cat playing with a ball of yarn\"\n\n",
+        "Pattern: Concept Visualization\n  - Description: Generating images to represent abstract concepts or ideas described in text.\n  - Cases:\n    - create an image representing \"freedom\"\n    - generate an image illustrating \"teamwork\"\n    - visualize the concept of \"innovation\"\n\n"
+    ],
+    "Multimodal Image-to-Text": [
+        "Multimodal Image-to-Text",
+        "Pattern: Image Captioning\n  - Description: Generating a textual description or caption for a given image.\n  - Cases:\n    - generate a caption for a landscape image\n    - describe the content of a photo\n    - provide a textual description for an artwork\n\n",
+        "Pattern: OCR Text Extraction\n  - Description: Extracting text from images containing written or printed text.\n  - Cases:\n    - extract text from a scanned document\n    - recognize text from a photo of a sign\n    - read text from an image of a book page\n\n",
+        "Pattern: Image-based Language Translation\n  - Description: Translating text found in images from one language to another.\n  - Cases:\n    - translate text from an image of a menu in French to English\n    - convert text from a photo of a sign in Spanish to German\n    - translate text from an image of a book page in Chinese to English\n\n"
+    ],
+    "Multimodal Visual Question Answering": [
+        "Multimodal Visual Question Answering",
+        "Pattern: Image-based Question Answering\n  - Description: Answering questions based on the content of an image.\n  - Cases:\n    - answer questions about objects in an image\n    - identify the main subject in an image and answer related questions\n    - answer questions about the scene depicted in an image\n\n",
+        "Pattern: Visual Data Analysis\n  - Description: Analyzing visual data to provide insights or answer questions.\n  - Cases:\n    - analyze an image and provide a summary\n    - answer questions about the relationships between objects in an image\n    - provide insights about the context of an image\n\n",
+        "Pattern: Image Context Understanding\n  - Description: Understanding the context of an image and answering questions related to it.\n  - Cases:\n    - answer questions about the location of an image\n    - identify the time period of an image and answer related questions\n    - answer questions about the emotions or mood conveyed in an image\n\n"
+    ],
+    "Multimodal Text-to-Video": [
+        "Multimodal Text-to-Video"
+    ],
+    "Multimodal Document Question Answer": [
+        "Multimodal Document Question Answer",
+        "Pattern: Document Comprehension\n  - Description: Understanding and extracting information from a document to answer specific questions.\n  - Cases:\n    - answer questions based on a given document\n    - extract information from a document to answer queries\n    - provide answers to questions using a document as a reference\n\n",
+        "Pattern: Multimodal Q&A\n  - Description: Answering questions based on information from various sources, such as text, images, and videos.\n  - Cases:\n    - answer questions using text and images as sources\n    - provide answers based on a combination of text and video information\n    - answer queries using information from multiple modalities\n\n",
+        "Pattern: Document-based Trivia\n  - Description: Answering trivia questions using a document as a source of information.\n  - Cases:\n    - answer trivia questions based on a historical document\n    - provide answers to trivia questions using a scientific article\n    - answer trivia questions using a news article as a reference\n\n"
+    ],
+    "Multimodal Document Question Answering": [
+        "Multimodal Document Question Answering",
+        "Pattern: Document Comprehension\n  - Description: Answering questions based on the content of a given document.\n  - Cases:\n    - answer questions about a research paper\n    - provide answers from a user manual\n    - extract information from a legal document\n\n",
+        "Pattern: Multimodal Q&A\n  - Description: Answering questions by analyzing both text and images in a document.\n  - Cases:\n    - answer questions about a comic book\n    - provide information from a scientific article with graphs\n    - extract details from an infographic\n\n",
+        "Pattern: Educational Material Analysis\n  - Description: Answering questions related to educational materials such as textbooks, lecture notes, or slides.\n  - Cases:\n    - answer questions from a history textbook\n    - provide information from a biology lecture slide\n    - extract details from a math course note\n\n"
+    ],
+    "Multimodal Graph Machine Learning": [
+        "Multimodal Graph Machine Learning"
+    ],
+    "Computer Vision Depth Estimation": [
+        "Computer Vision Depth Estimation",
+        "Pattern: Depth Estimation from Single Images\n  - Description: Estimating depth information from a single 2D image.\n  - Cases:\n    - estimate depth from a single image\n    - single image depth estimation\n    - depth map generation from a single image\n\n",
+        "Pattern: Depth Estimation for Autonomous Vehicles\n  - Description: Estimating depth information for autonomous vehicle navigation and obstacle detection.\n  - Cases:\n    - depth estimation for self-driving cars\n    - obstacle detection using depth estimation\n    - depth estimation for vehicle navigation\n\n",
+        "Pattern: Depth Estimation for Robotics\n  - Description: Estimating depth information for robotic applications, such as navigation, manipulation, and object recognition.\n  - Cases:\n    - depth estimation for robot navigation\n    - depth estimation for robotic manipulation\n    - depth estimation for object recognition in robotics\n\n"
+    ],
+    "Computer Vision Object Detection": [
+        "Computer Vision Object Detection",
+        "Pattern: Object Detection in Images\n  - Description: Detecting and identifying objects within an image.\n  - Cases:\n    - detect objects in a given image\n    - identify objects in a photo\n    - find objects within an image\n\n",
+        "Pattern: Real-time Object Detection\n  - Description: Detecting and identifying objects in real-time video feeds or live camera streams.\n  - Cases:\n    - detect objects in a live video stream\n    - real-time object detection in a camera feed\n    - identify objects in a live video\n\n",
+        "Pattern: Object Counting\n  - Description: Counting the number of specific objects within an image or video.\n  - Cases:\n    - count the number of cars in an image\n    - count people in a video\n    - count objects of a specific type in a photo\n\n"
+    ],
+    "Computer Vision Image Segmentation": [
+        "Computer Vision Image Segmentation",
+        "Pattern: Object Segmentation\n  - Description: Separating and identifying objects within an image.\n  - Cases:\n    - segment objects in a street scene\n    - identify and separate objects in a cluttered room\n    - segment objects in an aerial image\n\n",
+        "Pattern: Background Removal\n  - Description: Removing the background from an image, leaving only the main subject.\n  - Cases:\n    - remove background from a portrait photo\n    - isolate the main subject in a product image\n    - extract the foreground object from an image\n\n",
+        "Pattern: Image Annotation\n  - Description: Annotating images by identifying and labeling different regions or objects.\n  - Cases:\n    - label different regions in a satellite image\n    - annotate objects in an underwater image\n    - identify and label different parts of a car in an image\n\n"
+    ],
+    "Computer Vision Image-to-Image": [
+        "Computer Vision Image-to-Image",
+        "Pattern: Image Style Transfer\n  - Description: Transferring the style of one image onto another while preserving the content.\n  - Cases:\n    - apply the style of a famous painting to a photo\n    - transfer the style of a sketch to a real image\n    - combine the style of two images\n\n",
+        "Pattern: Image Colorization\n  - Description: Adding color to black and white images or modifying the color scheme of an image.\n  - Cases:\n    - colorize a black and white photo\n    - change the color scheme of an image\n    - add color to a grayscale image\n\n",
+        "Pattern: Image Super-resolution\n  - Description: Enhancing the resolution of an image, making it clearer and more detailed.\n  - Cases:\n    - enhance the resolution of a low-quality image\n    - improve the quality of a blurry image\n    - upscale an image without losing quality\n\n"
+    ],
+    "Computer Vision Unconditional Image Generation": [
+        "Computer Vision Unconditional Image Generation",
+        "Pattern: Unconditional Image Generation\n  - Description: Generating images without any specific conditions or constraints.\n  - Cases:\n    - generate random images\n    - create images without any input\n    - produce a set of unique images\n\n",
+        "Pattern: Artistic Image Generation\n  - Description: Generating images with an artistic or creative style.\n  - Cases:\n    - create abstract art images\n    - generate images with a specific artistic style\n    - produce images inspired by famous artists\n\n",
+        "Pattern: Texture Generation\n  - Description: Generating images with specific textures or patterns.\n  - Cases:\n    - create images with a wood texture\n    - generate images with a marble pattern\n    - produce images with a specific fabric texture\n\n"
+    ],
+    "Computer Vision Zero-Shot Image Classification": [
+        "Computer Vision Zero-Shot Image Classification",
+        "Pattern: Object Identification\n  - Description: Identifying objects present in an image.\n  - Cases:\n    - identify objects in a given image\n    - recognize objects in a photo\n    - detect objects in an image\n\n",
+        "Pattern: Scene Classification\n  - Description: Classifying images based on the type of scene they represent.\n  - Cases:\n    - classify an image as indoor or outdoor\n    - determine the type of scene in a photo\n    - categorize images based on their scenes\n\n",
+        "Pattern: Animal Species Recognition\n  - Description: Identifying the species of animals present in an image.\n  - Cases:\n    - recognize the species of a bird in an image\n    - identify the type of fish in a photo\n    - determine the species of a mammal in an image\n\n"
+    ],
+    "Natural Language Processing Zero-Shot Classification": [
+        "Natural Language Processing Zero-Shot Classification",
+        "Pattern: Zero-Shot Text Classification\n  - Description: Classifying text into categories without any prior training on labeled data.\n  - Cases:\n    - classify customer reviews into positive or negative\n    - categorize news articles into topics\n    - classify emails as spam or not spam\n\n",
+        "Pattern: Intent Recognition\n  - Description: Identifying the purpose or goal behind a given text or user input.\n  - Cases:\n    - determine the intent of a user query\n    - classify user messages into intents\n    - recognize the purpose of a customer support request\n\n",
+        "Pattern: Sentiment Analysis\n  - Description: Determining the sentiment or emotion expressed in a piece of text.\n  - Cases:\n    - analyze the sentiment of a tweet\n    - classify movie reviews as positive, negative, or neutral\n    - determine the sentiment of a product review\n\n"
+    ],
+    "Multimodal Zero-Shot Image Classification": [
+        "Multimodal Zero-Shot Image Classification",
+        "Pattern: Medical Image Classification\n  - Description: Classifying medical images into various categories or identifying diseases.\n  - Cases:\n    - classify an image of a cell into various types of cell stage\n    - classify microscopy images according to their cell types\n    - diagnose diseases from medical images\n    - classify a medical image\n    - classify images of X-Ray results"
+    ],
+    "Natural Language Processing Text Classification": [
+        "Natural Language Processing Text Classification",
+        "Pattern: Sentiment Analysis\n  - Description: Determining the sentiment or emotion expressed in a given text.\n  - Cases:\n    - classify movie reviews as positive or negative\n    - analyze customer feedback for sentiment\n    - determine the sentiment of social media posts\n\n",
+        "Pattern: Topic Classification\n  - Description: Categorizing text data into predefined topics or themes.\n  - Cases:\n    - categorize news articles into topics\n    - classify blog posts into relevant categories\n    - sort customer reviews by product features\n\n",
+        "Pattern: Language Identification\n  - Description: Identifying the language of a given text.\n  - Cases:\n    - detect the language of a user's input\n    - identify the language of a document\n    - classify text by language\n\n"
+    ],
+    "Natural Language Processing Table Question Answering": [
+        "Natural Language Processing Table Question Answering",
+        "Pattern: Table Data Query\n  - Description: Answering questions based on the information provided in a table.\n  - Cases:\n    - find the highest value in a column\n    - which row has the lowest value in a specific column\n    - extract data from a table based on a condition\n\n",
+        "Pattern: Table Data Analysis\n  - Description: Analyzing and extracting insights from a table using natural language queries.\n  - Cases:\n    - analyze sales data and find the best-selling product\n    - identify the most common issue in a customer support dataset\n    - determine the average value of a specific column\n\n",
+        "Pattern: Table Data Comparison\n  - Description: Comparing data within a table to answer questions or identify trends.\n  - Cases:\n    - compare the performance of two products in a sales dataset\n    - find the difference between the highest and lowest values in a column\n    - identify the most significant change in a time-series dataset\n\n"
+    ],
+    "Natural Language Processing Translation": [
+        "Natural Language Processing Translation",
+        "Pattern: Language Translation\n  - Description: Translating text from one language to another.\n  - Cases:\n    - translate English text to Spanish\n    - convert French text to German\n    - translate a paragraph from Chinese to English\n\n",
+        "Pattern: Multilingual Communication\n  - Description: Facilitating communication between speakers of different languages.\n  - Cases:\n    - translate a conversation between English and Japanese speakers\n    - enable communication between a Russian and an Arabic speaker\n    - assist in a multilingual conference by providing translations\n\n",
+        "Pattern: Content Localization\n  - Description: Adapting content to suit the language and cultural preferences of a target audience.\n  - Cases:\n    - localize a website for a Spanish-speaking audience\n    - translate marketing materials for a French market\n    - adapt an English user manual for Chinese users\n\n"
+    ],
+    "Natural Language Processing Text2Text Generation": [
+        "Natural Language Processing Text2Text Generation",
+        "Pattern: Text Summarization\n  - Description: Generating a concise summary of a given text while preserving its main ideas.\n  - Cases:\n    - summarize a news article\n    - create a summary of a research paper\n    - generate a brief overview of a blog post\n\n",
+        "Pattern: Text Paraphrasing\n  - Description: Rewriting a given text in different words while maintaining its original meaning.\n  - Cases:\n    - paraphrase a sentence\n    - rewrite a paragraph in different words\n    - rephrase a quote for better understanding\n\n",
+        "Pattern: Text Translation\n  - Description: Translating a given text from one language to another while preserving its meaning.\n  - Cases:\n    - translate an English text to Spanish\n    - convert a French article to German\n    - translate a Chinese document to English\n\n"
+    ],
+    "Natural Language Processing Summarization": [
+        "Natural Language Processing Summarization",
+        "Pattern: Text Summarization\n  - Description: Generating a concise summary of a given text while preserving its main ideas.\n  - Cases:\n    - summarize a news article\n    - create a summary of a research paper\n    - generate a brief overview of a blog post\n\n",
+        "Pattern: Meeting Minutes Summarization\n  - Description: Summarizing the key points and decisions made during a meeting or conference call.\n  - Cases:\n    - summarize meeting notes\n    - create a summary of a conference call transcript\n    - generate a brief report of a team meeting\n\n",
+        "Pattern: Document Summarization\n  - Description: Generating a condensed version of a lengthy document, such as a report or manual.\n  - Cases:\n    - summarize a user manual\n    - create a summary of a technical report\n    - generate an executive summary of a business plan\n\n"
+    ],
+    "Natural Language Processing Conversational": [
+        "Natural Language Processing Conversational",
+        "Pattern: Conversational Assistant\n  - Description: Creating a conversational AI assistant that can understand and respond to user inputs.\n  - Cases:\n    - build a chatbot for customer support\n    - create a virtual assistant for scheduling appointments\n    - develop a voice-activated personal assistant\n\n",
+        "Pattern: Sentiment Analysis\n  - Description: Analyzing the sentiment or emotion expressed in a given text or conversation.\n  - Cases:\n    - determine the sentiment of customer reviews\n    - analyze the emotion in a social media post\n    - gauge the sentiment of a conversation between two people\n\n",
+        "Pattern: Language Translation\n  - Description: Translating text or conversation from one language to another.\n  - Cases:\n    - translate a conversation between English and Spanish speakers\n    - convert a French text to English\n    - provide real-time translation for a multilingual chat\n\n"
+    ],
+    "Natural Language Processing Fill-Mask": [
+        "Natural Language Processing Fill-Mask",
+        "Pattern: Fill in the Blank\n  - Description: Completing sentences with missing words or phrases using context.\n  - Cases:\n    - complete the sentence: \"The cat is ____ on the mat.\"\n    - fill in the blank: \"She went to the store to buy some ____.\"\n    - provide the missing word: \"The weather today is quite ____.\"\n\n",
+        "Pattern: Word Prediction\n  - Description: Predicting the most likely word or phrase to follow a given text.\n  - Cases:\n    - predict the next word: \"Once upon a time in a\"\n    - suggest the following word: \"The quick brown fox\"\n    - what comes next: \"To be or not to\"\n\n",
+        "Pattern: Language Modeling\n  - Description: Generating text based on a given context or prompt.\n  - Cases:\n    - generate text based on the prompt: \"In the future, cars will\"\n    - continue the story: \"The sun was setting as they walked along the beach,\"\n    - expand on the idea: \"Artificial intelligence has the potential to\"\n\n"
+    ],
+    "Audio Text-to-Speech": [
+        "Audio Text-to-Speech",
+        "Pattern: Text Narration\n  - Description: Converting written text into spoken words for narration purposes.\n  - Cases:\n    - narrate an audiobook\n    - convert a blog post into a podcast\n    - read a news article aloud\n\n",
+        "Pattern: Language Learning Assistance\n  - Description: Assisting language learners by providing spoken examples of text in the target language.\n  - Cases:\n    - pronounce a word or phrase in a foreign language\n    - listen to a sentence in the target language\n    - practice listening comprehension with a text\n\n",
+        "Pattern: Accessibility Support\n  - Description: Providing spoken content for visually impaired users or those who prefer audio over text.\n  - Cases:\n    - read an email aloud for a visually impaired user\n    - convert a webpage to audio for easier consumption\n    - narrate on-screen text for a user with dyslexia\n\n"
+    ],
+    "Audio Voice Activity Detection": [
+        "Audio Voice Activity Detection"
+    ],
+    "Audio Audio-to-Audio": [
+        "Audio Audio-to-Audio",
+        "Pattern: Audio Conversion\n  - Description: Converting audio files from one format to another or adjusting audio properties.\n  - Cases:\n    - convert MP3 to WAV\n    - change audio bitrate\n    - convert audio file to a different format\n\n",
+        "Pattern: Audio Enhancement\n  - Description: Improving the quality of audio by removing noise, adjusting volume, or applying filters.\n  - Cases:\n    - remove background noise from audio\n    - normalize audio volume\n    - apply equalization to audio\n\n",
+        "Pattern: Audio Mixing\n  - Description: Combining multiple audio tracks or sources into a single audio output.\n  - Cases:\n    - mix two audio files together\n    - combine multiple audio tracks\n    - merge audio sources into one\n\n"
+    ],
+    "Audio Audio Classification": [
+        "Audio Audio Classification",
+        "Pattern: Music Genre Classification\n  - Description: Classifying audio files into different music genres.\n  - Cases:\n    - classify a song into its music genre\n    - identify the genre of an audio clip\n    - determine the music genre of a given track\n\n",
+        "Pattern: Environmental Sound Classification\n  - Description: Identifying and classifying environmental sounds in audio recordings.\n  - Cases:\n    - classify the sound of a waterfall\n    - identify the sound of a car engine\n    - recognize the sound of a thunderstorm\n\n",
+        "Pattern: Speech Emotion Recognition\n  - Description: Analyzing and classifying the emotional state of a speaker in an audio recording.\n  - Cases:\n    - detect the emotion in a person's voice\n    - classify the emotional state of a speaker\n    - analyze the sentiment of a recorded speech\n\n"
+    ],
+    "Audio Classification": [
+        "Audio Classification"
+    ],
+    "Tabular Tabular Classification": [
+        "Tabular Tabular Classification",
+        "Pattern: Tabular Data Classification\n  - Description: Classifying rows in a tabular dataset based on the values of their features.\n  - Cases:\n    - classify customers into different segments based on their purchase history\n    - predict the likelihood of a loan applicant defaulting\n    - categorize products based on their attributes\n\n",
+        "Pattern: Categorical Feature Analysis\n  - Description: Analyzing and classifying data with categorical features in a tabular format.\n  - Cases:\n    - predict the success of a marketing campaign based on customer demographics\n    - classify job applicants based on their skills and experience\n    - categorize news articles based on their topics\n\n",
+        "Pattern: Numerical Feature Analysis\n  - Description: Analyzing and classifying data with numerical features in a tabular format.\n  - Cases:\n    - predict house prices based on their features\n    - classify stocks based on their financial ratios\n    - categorize vehicles based on their specifications\n\n"
+    ],
+    "Tabular Tabular Regression": [
+        "Tabular Tabular Regression",
+        "Pattern: Predictive Modeling\n  - Description: Building a model to predict continuous target variables based on input features from tabular data.\n  - Cases:\n    - predict house prices based on features like location, size, and age\n    - forecast sales for a retail store using historical data and seasonal trends\n    - estimate the likelihood of customer churn based on customer behavior and demographics\n\n",
+        "Pattern: Regression Analysis\n  - Description: Analyzing the relationship between a dependent variable and one or more independent variables in tabular data.\n  - Cases:\n    - analyze the impact of advertising spend on sales revenue\n    - study the effect of education level on income\n    - investigate the relationship between air quality and respiratory health\n\n",
+        "Pattern: Time Series Forecasting\n  - Description: Predicting future values of a continuous variable based on historical data in a tabular format.\n  - Cases:\n    - forecast stock prices using historical price data and market indicators\n    - predict future energy consumption based on historical usage and weather data\n    - estimate the number of daily visitors to a website using historical traffic data\n\n"
+    ],
+    "Reinforcement Learning": [
+        "Reinforcement Learning",
+        "Pattern: Reinforcement Learning for Game Playing\n  - Description: Using reinforcement learning to train agents to play games or solve puzzles.\n  - Cases:\n    - train an agent to play chess\n    - develop a reinforcement learning model for tic-tac-toe\n    - create an AI to solve a Rubik's cube\n\n",
+        "Pattern: Reinforcement Learning for Robotics Control\n  - Description: Applying reinforcement learning to control robotic systems or improve their performance.\n  - Cases:\n    - train a robotic arm to pick up objects\n    - optimize a robot's walking gait\n    - develop a reinforcement learning model for drone navigation\n\n",
+        "Pattern: Reinforcement Learning for Resource Allocation\n  - Description: Using reinforcement learning to optimize the allocation of resources in various domains.\n  - Cases:\n    - optimize energy consumption in a smart grid\n    - allocate network bandwidth for optimal performance\n    - manage resources in a cloud computing environment\n\n"
+    ],
+    "Reinforcement Learning Robotics": [
+        "Reinforcement Learning Robotics"
+    ]
+}

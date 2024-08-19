@@ -1,0 +1,44 @@
+{
+    "Text language model": [
+        "Text language model"
+    ],
+    "Text embedding": [
+        "Text embedding"
+    ],
+    "Image feature vector": [
+        "Image feature vector"
+    ],
+    "Image classification": [
+        "Image classification"
+    ],
+    "Image Frame Interpolation": [
+        "Image Frame Interpolation"
+    ],
+    "Image pose detection": [
+        "Image pose detection"
+    ],
+    "Audio embedding": [
+        "Audio embedding"
+    ],
+    "Text preprocessing": [
+        "Text preprocessing"
+    ],
+    "Image object detection": [
+        "Image object detection"
+    ],
+    "Video classification": [
+        "Video classification"
+    ],
+    "Audio Speech-to-Text": [
+        "Audio Speech-to-Text"
+    ],
+    "Audio event classification": [
+        "Audio event classification"
+    ],
+    "Text classification": [
+        "Text classification"
+    ],
+    "Image segmentation": [
+        "Image segmentation"
+    ]
+}

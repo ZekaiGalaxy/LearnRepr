@@ -141,7 +141,16 @@ Here are some examples:
 {1}
 """.format(api, api_examples)
 
-def zero_infer_prompt(api):
+def zero_infer_prompt(api, example_api_dict):
+    api_example = ""
+    for k,v in example_api_dict.items():
+        api_example += f"API name: {k}\n"
+        try:
+            api_example += v[1] + "\n"
+        except:
+            print('no api example!')
+            pass
+
     return """Here is a generation task. Your task is to generate patterns that represent the situations to call the api: {0}.
 Each pattern should have a short and general description, together with 2~3 representative, short, and key instructions that belong to the api.
 You should follow the following format, and no other explanation is needed:
@@ -151,8 +160,11 @@ Pattern: [Pattern Name]
     - [Case 1]
     - ...
     - [Case N]
-You should generate less than 10 patterns, with less than 5 cases each pattern.
-""".format(api)
+Here are some examples:
+{1}
+
+You should generate less than 10 patterns, with less than 5 cases each pattern for api {0}.
+""".format(api, api_example)
 
 # def deletion_prompt(key,attribute_list):
 # edited_lists = []

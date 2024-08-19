@@ -1,0 +1,20 @@
+{
+    "Video Classification": [
+        "Video Classification"
+    ],
+    "Object Detection": [
+        "Object Detection"
+    ],
+    "Audio Separation": [
+        "Audio Separation"
+    ],
+    "Text-To-Speech": [
+        "Text-To-Speech"
+    ],
+    "Semantic Segmentation": [
+        "Semantic Segmentation"
+    ],
+    "Text-to-Speech": [
+        "Text-to-Speech"
+    ]
+}

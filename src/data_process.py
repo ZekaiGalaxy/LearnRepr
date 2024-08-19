@@ -2,7 +2,7 @@ from .openai_public import get_embedding_query,get_embedding_context
 from .utils import load_file, save_file
 
 def get_data(args):
-    if args.task in ['huggingface','tensorflow','torchhub']:
+    if not args.task in ['lamp7']:
         APIs_description = load_file(f"data/{args.task}/APIs_description.json")
         APIs = load_file(f"data/{args.task}/APIs.json")
         Train_data = load_file(f"data/{args.task}/Train_data.json")
@@ -14,7 +14,7 @@ def get_data(args):
         data = load_file("data/lamp7/data_user.json")
         return data
 
-def get_data_embedding(args,APIs,Train_data,Test_data):
+def get_data_embedding(args,APIs,APIs_description,Train_data,Test_data):
     # API embed
     try:
         APIs_embed = load_file(f"embedding/{args.task}/APIs_embed_{args.embedding}.pt")
@@ -28,7 +28,7 @@ def get_data_embedding(args,APIs,Train_data,Test_data):
     except:
         APIs_description_embed={}
         for api_id, api in enumerate(APIs):
-            APIs_description_embed[api]=[APIs_embed[api_id]]
+            APIs_description_embed[api]=get_embedding_context(APIs_description[api], args)
         save_file(APIs_description_embed, f"embedding/{args.task}/APIs_description_embed_{args.embedding}.pt")
 
     # Train data embed

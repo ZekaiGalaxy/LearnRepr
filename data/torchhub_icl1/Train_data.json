@@ -1,0 +1,884 @@
+[
+    {
+        "prompt": "Instruction': I need an API to detect different types of vehicles, people, and lanes in an image captured from a camera mounted on a self-driving car., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Imagine an advertisement company wants to analyze various video streams for the presence of specific activities or actions. Provide them with an API that can perform this video classification task., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I work for Tesla, and I need a ready-to-use model for detecting and classifying cars, pedestrians, lanes, and drivable area in an image., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': We want to convert text to audio for one of our applications. What API can provide that functionality?, ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Devise an API used to separate objects from the background in an image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Please suggest a powerful API to carry out semantic segmentation in a given image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Design an API for segmenting the objects in an image with the highest accuracy., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': We need an API for a security system that can detect objects in real-time. Recommend a solution., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': A professional radiologist is looking to process an MRI dataset to isolate abnormalities. Help me find an API that can segment the abnormal regions within brain MRI images., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I'm the founder of Dobble, an AI company. We are building a virtual assistant and looking for an API to convert text to speech. Can you provide one?, ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend a Python API to perform semantic segmentation on an image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to build a video filter app that can separate video clips by different activities. Can you suggest an API that can classify videos into different categories based on the activities happening in the video?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': What's the best API for automatically detecting sports or activities types in a video clip for an application?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API for translating English text to French text., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A social media company wants to detect if an image uploaded by users contains any inappropriate content. Recommend an API for this., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': FastEVs is developing an electric autonomous vehicle and needs an API to perceive traffic objects and detect drivable areas in real-time. Recommend a suitable API., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Develop an application that classifies actions in sports videos. Recommend a suitable API to help analyze the videos and understand the actions performed., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': An autonomous vehicle company requires an API capable of object detection, drivable area segmentation, and lane detection. Provide the API and an example code to fulfill their requirements., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want an API to separate music into vocals, drums, bass, and other instruments for a music application I am developing. What API should I use?, ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Identify an API to perform semantic segmentation of the street labeled with road, sidewalk, and building for a given picture., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A photographer wants to separate the foreground and background in their images using semantic segmentation. Suggest an API for this purpose., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Propose a neural network model to use for detecting furniture in photos and identifying their types., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Alex is a deaf user who needs an app to convert text to voice. Which API would you recommend for that?, ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': A medical researcher from Johns Hopkins University wants to analyze brain MRI scans for tumor detection. Recommend an API that can perform tumor segmentation in brain MRI images., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Find a suitable API to perform semantic segmentation of an aerial image into building, road, and vegetation., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A sport streaming platform needs to detect clips of football plays for highlight creation. Recommend an API that can classify video clips into different action categories., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am developing a video platform and I need an API that can classify the type of sports played in the video., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': A freelance translator wants to automate their translation process from English to French. Can you suggest an API that can perform neural machine translation from English to French?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': In a smart city project, I need to find an API that can detect multiple objects such as cars or stop signs from an image provided by surveillance cameras., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API to categorize sports activities from a given video clip., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': My self-driving car company requires an API for perception tasks like detecting traffic objects, drivable area segmentation, and lane detection. Can you provide one?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API that can perform real-time object detection, drivable area segmentation, and lane detection for an autonomous vehicle., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I work at Spotify and I'm looking for an API that can separate the vocals, drums, bass, and other instruments from a pop music track., ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Provide an API that can segment objects present in a given image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Help me in segmenting objects in an image. Suggest an API that I can use for this purpose., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to count the number of people in a crowd using an image. Provide me with an API that can do this., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Discover an API suitable for segmenting abnormal regions in brain MRI scans., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API capable of converting given text to natural-sounding speech., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am a software developer working on an autonomous car project. I need an API to segment an image so I can identify different objects in the area., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I have a project where I am asked to perform semantic segmentation on cityscape images. Recommend me an API that would be useful for this., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am a content moderator for a video streaming platform, and I need a pretrained API to identify category of actions performed in a clip. What do you recommend?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Tell me an API that can be used to classify different actions happening in a video clip., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Which API can I use to build a powerful English to French translation system?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Tell me a model to use if I want to identify different objects in images without having my own dataset., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API to analyze workout videos and classify them into different exercise categories., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Identify an API that can detect vehicles, drivable areas, and lanes from images of roads., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need to separate the vocals from a piece of music for a DJ performance. Find me an API that can do this., ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Identify an API for recognizing objects and dividing them into different regions in given images., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Help me find an API for segmenting objects in images using a pre-trained model for semantic segmentation., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': An architect wishes to semantically segment different objects in an urban image. What API can they use for this purpose?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': ABC news needs a text-to-speech service for their articles. Offer them an API., ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Sandra, a radiologist, needs to find abnormal regions in a brain MRI image quickly. Recommend an API that can automatically identify abnormal regions in a 3-channel brain MRI slice., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': My application requires turning text into natural-sounding speech. What API can I use to achieve this?, ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Explain an API for street scene semantic segmentation using an RGB image and find the names of objects from the segmentation model., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': We would like to do semantic segmentation on a given image. Provide an API that can perform this functionality using the Fully Convolutional Network with ResNet101 backbone., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A start-up company plans to develop media dashboard to monitor and categorize the latest YouTube trends. Which API should they use for video classification?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Find me an API to use for video analysis in a project where we need to analyze football games., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Find me an API for neural machine translation that can translate English text to French., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Design an API to identify objects in an image quickly and efficiently., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want an object detection API capable of handling object detection, drivable area segmentation, and lane detection for autonomous driving tasks., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Design an autonomous vehicle algorithm that can detect other vehicles, pedestrians, and the drivable area on the road. Suggest an appropriate API for this purpose., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': A DJ wants to separate a song into four stems: vocals, drums, bass, and other instruments. What API can be used to achieve this?, ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API that can convert a given text into speech with minimal dependencies., ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': A drone startup requires an API to analyze aerial images to recognize roads, buildings, and trees., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A drone is flying over the neighborhood and is recording video. How can I process the video and perform semantic segmentation on each frame?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need to detect objects in a given image from a security camera. Can you provide me an API that can perform this task?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I have brain MRI scans and I want to segment the abnormal regions. Recommend an API that can perform this task., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': My app needs a realistic human speech from text, point me to an API that helps achieve this., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Suggest a suitable API to segment an image into semantically meaningful regions, such as people, cars, and buildings., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': For a city development project, I need to segment roads, buildings, and trees from satellite images. Propose an API that can help me with this task., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am developing a video indexing application and I want to classify actions in video clips. What API should I use?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': A travel buddy application is helping the tourists communicate at many non-english countries. Provide me an API which can help tourists translate simple questions like \"where is the restroom?\" when given the destination language code., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': As a traffic analyst, I need an API that can detect vehicles from traffic camera images., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API that can analyze a video and classify different activities featured in the video., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to build a self-driving car application that can detect objects, segment drivable areas, and detect lanes. Point me to an API that can do this., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I have a pop music soundtrack and I want to extract drums, vocals, and bass from it. Give me an API that can perform this music separation., ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': What API should we use to perform semantic segmentation on aerial images for identifying buildings, roads, and vegetation?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Create an audio version of an English text using an API., ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Locate an API that could assist me in developing a street view application that highlights trees and buildings within the given images., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to segment an image of Orchard Parks Shopping Center. Suggest an API for semantic segmentation that can segment items in a shopping center., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A security company wants to create a project that involves object detection from the live video feed captured by their CCTV cameras. Propose an API that provides object detection in real time., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': A machine learning model is needed that can identify abnormalities in brain MRI scans. Recommend an API that could be used to train a model for this purpose., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I'm working on an application that converts text into speech. Tell me an API that can serve my purpose., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am studying about vegetative cover in my college. Give me an API that can output segmented vegetation areas from a satellite image of a region., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API to perform semantic segmentation on my images. Preferably a fully-convolutional network. What can you suggest?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Can you suggest an API to help identify different physical activities from short video clips?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Find an API that works with street camera videos and classifies the type of actions happening in the video., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API for translating an English paragraph to French, perfect candidate should support large-scale semi-supervised training and back-translation., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am trying to implement a drone surveillance system with intruders detection using a camera system. Suggest me an API capable of performing object detections for my drone's inbuilt camera., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': A deepfake inspector company would like to classify the authenticity of a video. Suggest me an API that will classify if the video is deepfake or original., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Obtain information on a machine learning API capable of detecting objects, drivable areas, and lanes in traffic images, such as those from a self-driving car's camera feed., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I work for a self-driving car company and we need an API to perform simultaneous object detection, drivable area segmentation, and lane detection in images taken from vehicle cameras., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to build a robot that recognize objects in the street. Provide me an API that can segment objects in an image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need to convert text to speech mp3 format with natural sounding voices. Can you find me an API that can do that?, ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Our company wants to segment images into multiple classes. Suggest an API for semantic segmentation., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need a semantic segmentation model to segment different objects present in road scene images. Suggest me an API for this purpose., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': What API can I use to detect objects in an image while maintaining a small model size for a mobile application?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': A research team is analyzing brain MRI images for abnormality segmentation. Suggest a suitable API to achieve this., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': We need to develop a robotic assistant, and it needs to be able to speak given a text input. Provide a text-to-speech API that can convert a text input into natural-sounding speech., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend an API for segmenting objects in images for an autonomous vehicle project., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API that generates semantic segmentation of an input image taken by a self-driving car., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A company called \"VideoTag\" wants to classify videos into different categories using machine learning. Provide an API that can help them with video classification., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need to translate a paragraph from English to French. What API would you recommend for this task?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Find an API that can perform scene recognition in videos and is pretrained on a large dataset for enhanced accuracy., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API to detect objects in a traffic video, segment drivable areas, and detect lane lines. Provide an API that can perform this task., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am designing an autonomous navigation system for a robot. What API should I use that detects objects, drivable areas, and lane lines simultaneously?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I have a mix of pop songs and I need an API that can break it into separate tracks for vocals, drums, etc., ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Create a high-resolution image segmentation model that can distinguish between objects in a scene., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': An edTech company wants to build an app that reads content from their textbook to the students. Suggest an API that can convert written text to speech., ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': I have a brain MRI scan and I want to detect abnormalities in the scan. Can you recommend an API for this task?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Convert an English text to speech while preserving the naturalness of the voice. Recommend me a suitable API., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Which API do I use for segmenting objects in an image based on their class?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am working on environmental analysis and I want to analyze each pixel in an aerial image and identify its class. What API could help me with that?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': As a content moderator, I need to classify videos into categories Automatically. Please suggest an API for performing this task., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Tell me an API that can classify a video clip according to the action in the clip., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': The Amazon security team wants to auto-detect unattended package left at their headquarters. Propose an API that can detect objects in images., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Suggest a pre-trained video classification model capable of classifying human actions in a video., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need an API capable of detecting vehicles, drivable areas, and lane lines from images taken from a dashboard camera., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Help me to find an API to assist autonomous vehicles providing object detection, drivable area segmentation and lane detection for safer navigation., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': How can I extract the vocal track and other stems from a song's audio? Suggest an API for this., ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need to extract objects from a picture of a city scene. Provide me with an API that can output the segmented objects from an image., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Develop an API that detects objects in an image given the URL of the image. The API should work with high accuracy., ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Explain how to use an API for semantic segmentation of park scenes to identify different regions such as playgrounds, pavements and water., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': \"A Language teacher is teaching his class about pronunciation of English. They are looking for a TTS API that can help the students in the study process. Suggest an API for this purpose.\", ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': An urban planning team needs to segment a satellite image to identify different landforms. Can you suggest an ML API that can provide segmentation maps?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Propose an API to process a satellite image and label different objects like buildings, roads, and vegetation., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A fitness app is trying to categorize workout videos based on the activity. Can you propose an API that can do this?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend a video classification API that can identify the netball activity from a short video clip., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need a pre-trained model to translate English text to French, which API can help perform that task?, ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': I am building a security system for a shopping mall, and I need to identify objects in real-time from CCTV footage. Can you suggest an API?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Rankz wants to develop a custom video suggestion feature by classifying user's uploaded videos. Recommend a suitable API for this task., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to build a self-driving car software that can detect traffic objects, drivable areas, and lanes. Which API can perform these tasks efficiently?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': Create a multi-task network for autonomous driving to handle object detection, drivable area segmentation, and lane detection in real-time. Which API would you suggest to achieve this?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I need a deep learning model to separate vocals from background music for a given audio clip. What API can I use for this?, ",
+        "completion": [
+            "Audio Separation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Based upon a traffic camera, San Francisco Traffic Authority wants to identify the segmented boundaries for everything the camera captures. Provide an API that can help them perform this task., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Tell me about an API that is capable of segmenting objects in images based on their semantics, like identifying a car or a person., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Can you recommend an API that can detect different types of animals in a picture?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to perform semantic segmentation on an image to differentiate the foreground objects from the background. Recommend an API that can accomplish this., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Help me to convert this text to speech: \"The weather is great today\" with an API call., 'Input': 'The weather is great today', ",
+        "completion": [
+            "Text-To-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Teach me how to operate an API that can segment abnormalities in brain MRI images., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend me an API that can create synthesized speech from text input., ",
+        "completion": [
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "prompt": "Instruction': Recommend a neural network API for semantic segmentation of images containing objects like cars, airplanes, and people., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Help me find an API that can perform semantic segmentation on an image of San Francisco streets., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': A video analyst is working on recognizing sports clips to create a promotional video. Which API should they use to classify actions in the video?, ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': I want to create a program that analyzes CCTV footage and classifies suspicious activities. Help me with an API that can do this., ",
+        "completion": [
+            "Video Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction': A language teacher wants to check the grammar of some sentences by translating them back and forth between languages. Provide an API that can handle neural machine translation for this purpose., ",
+        "completion": [
+            "Semantic Segmentation"
+        ]
+    },
+    {
+        "prompt": "Instruction': Can you recommend an API to ensure the safety of autonomous cars by detecting pedestrians, cars and other objects in a timely manner?, ",
+        "completion": [
+            "Object Detection"
+        ]
+    }
+]

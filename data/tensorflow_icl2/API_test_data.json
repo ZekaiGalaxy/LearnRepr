@@ -1,4 +1,7 @@
 {
+    "Text language model": [
+        "Instruction: I'm planning to do sentiment analysis on a bunch of news articles. Help me convert the article content to 20-dimensional vectors."
+    ],
     "Text embedding": [
         "Instruction: Analyze customer reviews and identify positive and negative sentiments, so please convert the text reviews into vectors.",
         "Instruction: I have a list of sentences and I want to find which ones are most similar. How can I do that efficiently?",
@@ -695,5 +698,19 @@
     "Audio event classification": [
         "Instruction: My retail client wishes to recognize when a doorbell is rang in audio files of their store.",
         "Instruction: Identify the primary sound category in an audio clip."
+    ],
+    "Text classification": [
+        "Instruction: Write an example code to use a pre-trained model to convert a sentence \"My cat is sitting on the porch\" into high-dimensional vectors.\n###Input: My cat is sitting on the porch",
+        "Instruction: Could you help me to find a quick way to rate similarities between my blog posts?",
+        "Instruction: There are a bunch of user reviews about our new product, and we need assistance categorizing them into different sentiments.",
+        "Instruction: I want to analyze product reviews and create a classifier to automatically sort them based on their positive or negative sentiment."
+    ],
+    "Image segmentation": [
+        "Instruction: There is a need to segment images of a park area with trees and people, and distinguish the trees from people.",
+        "Instruction: I am planning my garden, please help me segment plants in an image for better landscape planning.",
+        "Instruction: I took a picture of a street and want to separate the vehicles, people, and buildings in the scene.",
+        "Instruction: I took a photo of my friends playing soccer. I am making a collage and we need to remove the background from the photo, segmenting the players in the image.",
+        "Instruction: I need to separate different objects in an image, like differentiate the road, house and tree.",
+        "Instruction: We just took many different images of the front of a house and want to isolate the windows part from the whole image."
     ]
 }

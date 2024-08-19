@@ -16,11 +16,11 @@ import os
 # Parse Args
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', default='tensorflow', choices=['tensorflow','torchhub','huggingface','lamp7'])
-parser.add_argument('--model', default='gpt4', type=str)
-parser.add_argument('--choice_model', default='gpt4', type=str)
+parser.add_argument('--model', default='gpt4o', type=str)
+parser.add_argument('--choice_model', default='llama3', type=str)
 parser.add_argument('--embedding', default='gte-small', type=str)
 parser.add_argument('--exp_name', default='proxy_llm_compress_last_epoch', type=str)
-parser.add_argument('--num_epoch', default=10, type=int)
+parser.add_argument('--num_epoch', default=5, type=int)
 parser.add_argument('--do_train', default=1, type=int)
 parser.add_argument('--do_eval', default=1, type=int)
 parser.add_argument('--api', default=1, type=int)
@@ -40,7 +40,7 @@ args.prompt_path = f'{args.output_dir}/{args.task}_{args.exp_name}/prompts'
 
 # Get data
 APIs_description, APIs, Train_data, Test_data, API_train_data, API_test_data = get_data(args)
-APIs_embed, APIs_description_embed, Train_data_embed, Test_data_embed, API_train_data_embed, API_test_data_embed = get_data_embedding(args, APIs, Train_data, Test_data)
+APIs_embed, APIs_description_embed, Train_data_embed, Test_data_embed, API_train_data_embed, API_test_data_embed = get_data_embedding(args, APIs, APIs_description, Train_data, Test_data)
 print(f"get data done")
 
 args.exp_name = 'proxy'

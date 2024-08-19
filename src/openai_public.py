@@ -9,19 +9,34 @@ from transformers import AutoModel, AutoTokenizer
 import torch
 import time
 import warnings
-from .utils import *
+import sys
+sys.path.append("/vepfs/wcf/G/zekai/root/.code/LearnRepr/src")
+from utils import *
 warnings.filterwarnings("ignore")
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
+from dotenv import load_dotenv
 
 @backoff.on_exception(backoff.expo, openai.RateLimitError)
 def completions_with_backoff(client, **kwargs):
     return client.chat.completions.create(**kwargs)
+
+load_dotenv()
+credential = DefaultAzureCredential()
+token_provider = get_bearer_token_provider(credential,"https://cognitiveservices.azure.com/.default")
+client = AzureOpenAI(
+  azure_endpoint="https://nllearn4o0.openai.azure.com/",
+  azure_ad_token_provider=token_provider,
+  api_version="2024-02-15-preview",
+  # api_version="2024-02-01",
+  max_retries=5,
+)
 
 llama_clients = [
     OpenAI(
         api_key="EMPTY",
         base_url=f"http://localhost:{8000+i}/v1"
     )
-    for i in range(1, 8)
+    for i in range(1,8)
 ]
 
 
@@ -32,22 +47,20 @@ global tokenizer, embedding_model
 global device
 
 api = 1
-device = 'cuda:5'
+device = 'cuda:0'
 
 def set_model(args):
     global llama3, llama3_tokenizer, tokenizer, embedding_model, device
     llama3, llama3_tokenizer, tokenizer, embedding_model = None, None, None, None
-    if args.model == 'llama3' or args.choice_model == 'llama3':
-        pass
-        # llama3_path = "llama3"
-        # llama3_tokenizer = AutoTokenizer.from_pretrained(llama3_path, padding_side="left")
-        # llama3 = AutoModelForCausalLM.from_pretrained(llama3_path, torch_dtype=torch.bfloat16).to(device)
+    if args.model == 'llama3': # no need for choice model
+        llama3_path = "/vepfs/wcf/G/zekai/models/llama3"
+        llama3_tokenizer = AutoTokenizer.from_pretrained(llama3_path, padding_side="left")
+        llama3 = AutoModelForCausalLM.from_pretrained(llama3_path, torch_dtype=torch.bfloat16).to(device)
     if args.embedding == 'gte-small':
-        pass
-        # path = 'gte-small'
-        # # path = '/vepfs/wcf/G/zekai/models/gte-small'
-        # tokenizer = AutoTokenizer.from_pretrained(path)
-        # embedding_model = AutoModel.from_pretrained(path, trust_remote_code=True).to(device)
+        path = 'gte-small'
+        path = '/vepfs/wcf/G/zekai/models/gte-small'
+        tokenizer = AutoTokenizer.from_pretrained(path)
+        embedding_model = AutoModel.from_pretrained(path, trust_remote_code=True).to(device)
     elif args.embedding == 'gte-large':
         raise ValueError("Not implemented")
     elif args.embedding == 'sfr':
@@ -57,16 +70,19 @@ def set_model(args):
     elif args.embedding == 'phi3':
         raise ValueError("Not implemented")
 
-client1 = AzureOpenAI(
-    api_key="54b5441e258049ad9291387d8db50372",  
-    api_version="2024-02-01",
-    azure_endpoint=f"https://learnnl6.openai.azure.com/"
-)
-client2 = AzureOpenAI(
-    api_key="ff2c0f1f6cdd480e81489ba52f094b60",  
-    api_version="2024-02-01",
-    azure_endpoint=f"https://learnnl2.openai.azure.com/"
-)
+# client1 = AzureOpenAI(
+#     api_key="54b5441e258049ad9291387d8db50372",  
+#     api_version="2024-02-01",
+#     azure_endpoint=f"https://learnnl6.openai.azure.com/"
+# )
+# client2 = AzureOpenAI(
+#     api_key="ff2c0f1f6cdd480e81489ba52f094b60",  
+#     api_version="2024-02-01",
+#     azure_endpoint=f"https://learnnl2.openai.azure.com/"
+# )
+    
+client1 = client
+client2 = client
 
 def set_api(args):
     global api
@@ -195,6 +211,21 @@ def get_embedding_query(text, args):
         elif isinstance(text, str):
             return client1.embeddings.create(input = [text], model="text-embedding-ada-002").data[0].embedding
 
+def query_azure_openai_chatgpt_chato(client, query, temperature=0.0):
+    try:
+        completion = completions_with_backoff(
+            client=client,
+            model="gpt-4o", # "gpt-4": "2024-02-01"
+            messages=[
+                {"role": "system", "content": "You are a helpful AI assistant."},
+                {"role": "user", "content": query},
+            ],
+            temperature=temperature,
+        )
+    except:
+        return ""
+    return completion.choices[0].message.content
+
 def query_azure_openai_chatgpt_chat(client, query, temperature=0.0):
     try:
         completion = completions_with_backoff(
@@ -213,19 +244,19 @@ def query_azure_openai_chatgpt_chat(client, query, temperature=0.0):
 def chat_llama3(params):
     query, i = params
     client = llama_clients[i]
-    try:
-        chat_response = client.chat.completions.create(
-            model="/vepfs/wcf/wcf/G/zekai/models/llama3",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": query},
-            ],
-            temperature=0.0
-        )
-        return chat_response.choices[0].message.content
-    except:
-        print(f"Error with query: {query}")
-        return ""
+    # try:
+    chat_response = client.chat.completions.create(
+        model="/vepfs/wcf/G/zekai/models/llama3",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": query},
+        ],
+        temperature=0.0
+    )
+    return chat_response.choices[0].message.content
+    # except:
+    #     print(f"Error with query: {query}")
+    #     return ""
 
 
 
@@ -291,24 +322,53 @@ def query1(query):
 def query2(query):
     ans = query_azure_openai_chatgpt_chat(client2, query)
     return ans
+def query1o(query):
+    ans = query_azure_openai_chatgpt_chato(client1, query)
+    # print(ans, flush=True)  
+    return ans
+def query2o(query):
+    ans = query_azure_openai_chatgpt_chato(client2, query)
+    return ans
 def query(query, model):
     if model == "gpt4":
         if api == 1:
             return query1(query)
         else:
             return query2(query)
+    elif model == "gpt4o":
+        if api == 1:
+            return query1o(query)
+        else:
+            return query2o(query)
     elif model == "llama3":
         return chat_llama3(query,0)
     else:
         raise ValueError("Invalid model name")
+
 
 def batch_queries(queries, batch_size):
     for i in range(0, len(queries), batch_size):
         yield queries[i:i + batch_size]
 
 def multi_query(queries, model):
-    if model == "gpt4":
-        global api
+    if model == "gpt4o":
+        # global api
+        outputs = [None] * len(queries)  # Initialize a list to store the results in order
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            len_queries = len(queries)
+            
+            if api == 1:
+                futures1 = {executor.submit(query1o, query): i for i, query in enumerate(queries)}
+            else:
+                futures1 = {executor.submit(query2o, query): i for i, query in enumerate(queries)}
+            # futures2 = {executor.submit(query2, query): i + len_queries//2 for i, query in enumerate(queries[len_queries//2:])}
+            # all_futures = {**futures1, **futures2}
+            for future in tqdm(concurrent.futures.as_completed(futures1), total=len_queries, desc="Processing Queries"):
+                outputs[futures1[future]] = future.result()
+        return outputs
+
+    elif model == "gpt4":
+        # global api
         outputs = [None] * len(queries)  # Initialize a list to store the results in order
         with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
             len_queries = len(queries)
@@ -345,7 +405,9 @@ def multi_query(queries, model):
 
 
 if __name__ =='__main__':
-    query1("")
+    queries = ["How to make a cake, give me the recipe"]*160
+    print(multi_query(queries, "llama3"))
+    # print(query1("hello!"))
     # for k,v in API_dic.items():
     #     print(k,v)
     #     client = AzureOpenAI(

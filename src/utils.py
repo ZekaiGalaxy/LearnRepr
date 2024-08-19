@@ -170,8 +170,19 @@ def letter_to_number(letter):
     except:
         return -1
     
+# def retrieve_topk(embed1, embed2, k=1):
+#     # breakpoint()
+#     similarity = torch.matmul(F.normalize(embed1), F.normalize(embed2).t())
+#     topk = torch.topk(similarity, k, dim=1)
+#     return topk[1].tolist()
+
 def retrieve_topk(embed1, embed2, k=1):
-    similarity = torch.matmul(F.normalize(embed1), F.normalize(embed2).t())
+    embed1_norm = F.normalize(embed1, dim=1)
+    embed2_norm = F.normalize(embed2, dim=1)
+    similarity = torch.matmul(embed1_norm, embed2_norm.t())
+    max_k = similarity.size(1)
+    if k > max_k:
+        k = max_k
     topk = torch.topk(similarity, k, dim=1)
     return topk[1].tolist()
 
@@ -257,12 +268,24 @@ def calculate_token_cost(path):
     text = load_file(path)
     return get_token_len(text)
 
-def calculate_token_cost_folder(folder_path):
+def calculate_token_cost_folder(folder_path, dos=[], donts=[]):
     print(f'Calculating token cost for folder {folder_path}')
     files = os.listdir(folder_path)
     total_cost = 0
     for file in tqdm(files):
-        if file.endswith('.txt'):
+        is_valid = 0
+        for x in dos:
+            if x in file:
+                is_valid = 1
+        for x in donts:
+            if x in file:
+                is_valid = 0
+        if not file.endswith('.txt'):
+            is_valid = 0
+        if is_valid == 0:
+            continue
+        else:
+            print(file)
             total_cost += calculate_token_cost(f'{folder_path}/{file}')
     return total_cost
 

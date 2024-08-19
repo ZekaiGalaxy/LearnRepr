@@ -1,4 +1,5 @@
 [
+    "Text language model",
     "Text embedding",
     "Image feature vector",
     "Image classification",
@@ -9,5 +10,7 @@
     "Image object detection",
     "Video classification",
     "Audio Speech-to-Text",
-    "Audio event classification"
+    "Audio event classification",
+    "Text classification",
+    "Image segmentation"
 ]

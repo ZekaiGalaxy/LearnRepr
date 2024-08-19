@@ -1,0 +1,132 @@
+{
+    "Text language model": [
+        "Text language model",
+        "Pattern: Embeddings Creation\n  - Description: The process of converting text into numerical vectors.\n  - Cases:\n    - create embeddings\n    - work out the embeddings\n    - transform these news article's headlines into numerical vectors"
+    ],
+    "Text classification": [
+        "Text classification",
+        "Pattern: Model Utilization\n  - Description: Requests for using or loading pre-trained models for text classification tasks.\n  - Cases:\n    - load the pre-trained model\n    - recommend a ready-to-use model"
+    ],
+    "Image segmentation": [
+        "Image segmentation",
+        "Pattern: Identifying Regions of Interest\n  - Description: Detecting and highlighting specific areas within a larger image.\n  - Cases:\n    - find areas of potential interest\n    - identify different crop types"
+    ],
+    "Text embedding": [
+        "Text embedding",
+        "Pattern: Semantic Similarity\n  - Description: Determining how similar two pieces of text are based on their meanings.\n  - Cases:\n    - compare the similarity between these two sentences\n    - find how close these paragraphs are in meaning\n    - measure the semantic distance between these documents\n\n",
+        "Pattern: Text Clustering\n  - Description: Grouping similar pieces of text together based on their content.\n  - Cases:\n    - cluster these articles\n    - group similar reviews\n    - organize these documents into clusters\n\n",
+        "Pattern: Sentiment Analysis Preparation\n  - Description: Preparing text data for sentiment analysis by converting it into embeddings.\n  - Cases:\n    - embed these tweets for sentiment analysis\n    - transform these reviews into vectors for sentiment detection\n    - prepare these comments for sentiment evaluation\n\n",
+        "Pattern: Information Retrieval\n  - Description: Enhancing search and retrieval systems by embedding text data.\n  - Cases:\n    - embed these queries for better search results\n    - convert these documents into vectors for retrieval\n    - improve search accuracy with text embeddings\n\n",
+        "Pattern: Contextual Understanding\n  - Description: Capturing the context and nuances of text for deeper understanding.\n  - Cases:\n    - embed this paragraph to understand its context\n    - capture the nuances of this text with embeddings\n    - transform this dialogue into vectors for contextual analysis\n\n",
+        "Pattern: Document Classification\n  - Description: Converting text into embeddings to facilitate document classification tasks.\n  - Cases:\n    - embed these documents for classification\n    - prepare these articles for categorization\n    - transform these reports into vectors for classification\n\n",
+        "Pattern: Personalized Recommendations\n  - Description: Using text embeddings to generate personalized content recommendations.\n  - Cases:\n    - embed user reviews for recommendation\n    - convert these product descriptions into vectors for suggestions\n    - prepare these articles for personalized recommendations"
+    ],
+    "Image feature vector": [
+        "Image feature vector",
+        "Pattern: Feature Extraction\n  - Description: The process of extracting meaningful features from an image.\n  - Cases:\n    - extract features from this image\n    - get the image's feature vector\n    - derive key attributes from the picture\n\n",
+        "Pattern: Image Comparison\n  - Description: Comparing two or more images based on their feature vectors.\n  - Cases:\n    - compare these two images\n    - find similarities between the images\n    - match the image with the database\n\n",
+        "Pattern: Image Classification Preparation\n  - Description: Preparing images for classification tasks by converting them into feature vectors.\n  - Cases:\n    - prepare this image for classification\n    - convert the image to a feature vector for classification\n    - ready the image for the classifier\n\n",
+        "Pattern: Image Search\n  - Description: Searching for images in a database using feature vectors.\n  - Cases:\n    - search for similar images\n    - find images that match this feature vector\n    - look up images based on features\n\n",
+        "Pattern: Dimensionality Reduction\n  - Description: Reducing the dimensionality of image feature vectors for easier processing.\n  - Cases:\n    - reduce the dimensions of this feature vector\n    - apply PCA to the image features\n    - simplify the feature vector\n\n",
+        "Pattern: Anomaly Detection\n  - Description: Identifying unusual or outlier images based on their feature vectors.\n  - Cases:\n    - detect anomalies in the image set\n    - find outlier images\n    - identify unusual patterns in the images\n\n",
+        "Pattern: Image Clustering\n  - Description: Grouping images into clusters based on their feature vectors.\n  - Cases:\n    - cluster these images\n    - group similar images together\n    - organize images by feature similarity"
+    ],
+    "Image classification": [
+        "Image classification",
+        "Pattern: Object Detection\n  - Description: Identifying and locating objects within an image.\n  - Cases:\n    - detect objects in the image\n    - find all cars in this photo\n    - locate the animals in the picture\n\n",
+        "Pattern: Scene Recognition\n  - Description: Determining the overall scene or environment depicted in an image.\n  - Cases:\n    - recognize the scene\n    - identify the setting of this image\n    - classify the environment shown\n\n",
+        "Pattern: Image Tagging\n  - Description: Assigning descriptive tags or labels to an image based on its content.\n  - Cases:\n    - tag this image\n    - label the contents of the photo\n    - generate tags for this picture\n\n",
+        "Pattern: Image Categorization\n  - Description: Classifying an image into predefined categories or classes.\n  - Cases:\n    - categorize this image\n    - classify the photo into a category\n    - determine the class of this image\n\n",
+        "Pattern: Facial Recognition\n  - Description: Identifying and verifying individuals based on facial features in an image.\n  - Cases:\n    - recognize faces in the image\n    - identify the person in this photo\n    - verify the identity from the face\n\n",
+        "Pattern: Emotion Detection\n  - Description: Analyzing facial expressions to determine the emotional state of individuals in an image.\n  - Cases:\n    - detect emotions in the image\n    - analyze the facial expressions\n    - identify the mood of the person\n\n",
+        "Pattern: Image Quality Assessment\n  - Description: Evaluating the quality of an image based on various criteria.\n  - Cases:\n    - assess the quality of this image\n    - check for image clarity\n    - evaluate the resolution and sharpness\n\n",
+        "Pattern: Content Moderation\n  - Description: Identifying and filtering inappropriate or sensitive content in images.\n  - Cases:\n    - moderate the content of this image\n    - detect inappropriate content\n    - filter out sensitive material\n\n",
+        "Pattern: Style Recognition\n  - Description: Identifying the artistic style or genre of an image.\n  - Cases:\n    - recognize the style of this artwork\n    - classify the genre of the image\n    - determine the artistic style"
+    ],
+    "Image Frame Interpolation": [
+        "Image Frame Interpolation",
+        "Pattern: Smooth Transition Creation\n  - Description: Generating intermediate frames to create a smooth transition between two images.\n  - Cases:\n    - generate in-between frames\n    - create smooth transitions\n    - interpolate frames for animation\n\n",
+        "Pattern: Frame Rate Enhancement\n  - Description: Increasing the frame rate of a video by adding interpolated frames.\n  - Cases:\n    - enhance video frame rate\n    - add frames to increase fps\n    - smooth out video playback\n\n",
+        "Pattern: Slow Motion Effect\n  - Description: Creating a slow-motion effect by interpolating additional frames between existing ones.\n  - Cases:\n    - create slow-motion video\n    - interpolate for slow-motion effect\n    - add frames for slow-motion\n\n",
+        "Pattern: Video Quality Improvement\n  - Description: Enhancing the visual quality of a video by adding interpolated frames.\n  - Cases:\n    - improve video quality\n    - enhance visual smoothness\n    - add frames for better quality\n\n",
+        "Pattern: Animation Smoothing\n  - Description: Smoothing out animations by generating intermediate frames.\n  - Cases:\n    - smooth out animation\n    - interpolate frames for animation\n    - create smoother animations"
+    ],
+    "Image pose detection": [
+        "Image pose detection",
+        "Pattern: Human Pose Estimation\n  - Description: Detecting and analyzing the positions and movements of human bodies in images.\n  - Cases:\n    - estimate the pose of the person\n    - detect human body joints\n    - analyze the posture in the image\n\n",
+        "Pattern: Activity Recognition\n  - Description: Identifying and classifying human activities based on detected poses.\n  - Cases:\n    - recognize the activity being performed\n    - classify the action in the image\n    - detect exercise movements\n\n",
+        "Pattern: Gesture Detection\n  - Description: Identifying specific hand or body gestures in images.\n  - Cases:\n    - detect hand gestures\n    - identify the sign language gesture\n    - recognize waving or pointing\n\n",
+        "Pattern: Sports Performance Analysis\n  - Description: Analyzing athletes' movements to improve performance and technique.\n  - Cases:\n    - analyze the athlete's form\n    - detect the pose during the jump\n    - evaluate the running posture\n\n",
+        "Pattern: Safety Monitoring\n  - Description: Monitoring poses to ensure safety and prevent accidents in various environments.\n  - Cases:\n    - detect unsafe postures\n    - monitor worker's posture\n    - identify fall risks\n\n",
+        "Pattern: Animation and Gaming\n  - Description: Using pose detection to create realistic animations and interactions in games.\n  - Cases:\n    - capture the character's movements\n    - detect player gestures for game control\n    - animate based on detected poses\n\n",
+        "Pattern: Fitness Tracking\n  - Description: Monitoring and analyzing poses during workouts for fitness applications.\n  - Cases:\n    - track yoga poses\n    - detect correct exercise form\n    - analyze workout movements\n\n",
+        "Pattern: Virtual Try-On\n  - Description: Using pose detection to simulate how clothes or accessories would look on a person.\n  - Cases:\n    - detect the pose for virtual fitting\n    - simulate clothing on the detected body\n    - analyze the fit of the garment\n\n",
+        "Pattern: Medical Diagnosis\n  - Description: Assisting in medical assessments by analyzing body poses and movements.\n  - Cases:\n    - detect abnormal postures\n    - analyze gait for medical diagnosis\n    - monitor rehabilitation exercises"
+    ],
+    "Audio embedding": [
+        "Audio embedding",
+        "Pattern: Audio Feature Extraction\n  - Description: The process of extracting meaningful features from audio data.\n  - Cases:\n    - extract features from this audio clip\n    - get the audio features\n    - analyze the sound characteristics\n\n",
+        "Pattern: Audio Similarity Search\n  - Description: Finding similar audio clips based on their embeddings.\n  - Cases:\n    - find similar audio files\n    - search for audio clips that sound alike\n    - match this audio with similar ones\n\n",
+        "Pattern: Audio Classification Preparation\n  - Description: Preparing audio data for classification tasks by converting it into embeddings.\n  - Cases:\n    - prepare audio data for classification\n    - convert this sound file for classification\n    - transform audio for categorization\n\n",
+        "Pattern: Audio Data Clustering\n  - Description: Grouping audio data into clusters based on their embeddings.\n  - Cases:\n    - cluster these audio samples\n    - group similar audio files\n    - organize audio data into clusters\n\n",
+        "Pattern: Audio Content Analysis\n  - Description: Analyzing the content of audio files using their embeddings.\n  - Cases:\n    - analyze the content of this podcast\n    - study the audio content\n    - break down the sound file for analysis\n\n",
+        "Pattern: Audio Metadata Generation\n  - Description: Generating metadata for audio files based on their embeddings.\n  - Cases:\n    - create metadata for this audio\n    - generate descriptive tags for the sound file\n    - produce metadata from audio embeddings"
+    ],
+    "Text preprocessing": [
+        "Text preprocessing",
+        "Pattern: Tokenization\n  - Description: The process of breaking down text into individual words or tokens.\n  - Cases:\n    - split the text into words\n    - tokenize this sentence\n    - break down the paragraph into tokens\n\n",
+        "Pattern: Stop Words Removal\n  - Description: The process of removing common words that do not contribute significant meaning to the text.\n  - Cases:\n    - remove stop words from the text\n    - filter out common words\n    - eliminate non-essential words\n\n",
+        "Pattern: Lowercasing\n  - Description: Converting all characters in the text to lowercase.\n  - Cases:\n    - convert text to lowercase\n    - make all letters small\n    - change the case to lower\n\n",
+        "Pattern: Stemming\n  - Description: Reducing words to their base or root form.\n  - Cases:\n    - apply stemming to the words\n    - reduce words to their root form\n    - stem these tokens\n\n",
+        "Pattern: Lemmatization\n  - Description: Converting words to their base or dictionary form.\n  - Cases:\n    - lemmatize the text\n    - convert words to their base form\n    - apply lemmatization to these sentences\n\n",
+        "Pattern: Punctuation Removal\n  - Description: Removing punctuation marks from the text.\n  - Cases:\n    - strip punctuation from the text\n    - remove all punctuation marks\n    - clean the text of punctuation\n\n",
+        "Pattern: Text Normalization\n  - Description: Standardizing text by converting it to a consistent format.\n  - Cases:\n    - normalize the text\n    - standardize the text format\n    - apply text normalization\n\n",
+        "Pattern: Text Cleaning\n  - Description: General process of cleaning text by removing unwanted characters or formatting.\n  - Cases:\n    - clean the text data\n    - remove unwanted characters\n    - tidy up the text\n\n",
+        "Pattern: N-gram Generation\n  - Description: Creating sequences of N consecutive words or tokens from the text.\n  - Cases:\n    - generate bigrams from the text\n    - create trigrams\n    - form n-grams from the sentence"
+    ],
+    "Image object detection": [
+        "Image object detection",
+        "Pattern: Object Identification\n  - Description: Detecting and identifying objects within an image.\n  - Cases:\n    - identify objects in this image\n    - detect items in the picture\n    - find all objects present in the image\n\n",
+        "Pattern: Object Localization\n  - Description: Determining the location of objects within an image.\n  - Cases:\n    - locate objects in the image\n    - find the position of items in the picture\n    - pinpoint where objects are in the image\n\n",
+        "Pattern: Object Classification\n  - Description: Classifying detected objects into predefined categories.\n  - Cases:\n    - classify the detected objects\n    - categorize items found in the image\n    - determine the type of objects in the picture\n\n",
+        "Pattern: Object Counting\n  - Description: Counting the number of specific objects within an image.\n  - Cases:\n    - count the number of cars in the image\n    - tally the objects in the picture\n    - determine how many people are in the photo\n\n",
+        "Pattern: Object Tracking\n  - Description: Tracking the movement of objects across a sequence of images or video frames.\n  - Cases:\n    - track the movement of the object\n    - follow the car across the video frames\n    - monitor the position of the person in the video\n\n",
+        "Pattern: Object Detection in Real-Time\n  - Description: Detecting objects in real-time from a live video feed.\n  - Cases:\n    - detect objects in the live feed\n    - identify items in real-time video\n    - find objects as they appear in the live stream\n\n",
+        "Pattern: Object Detection with Bounding Boxes\n  - Description: Detecting objects and drawing bounding boxes around them.\n  - Cases:\n    - draw bounding boxes around detected objects\n    - highlight items with bounding boxes\n    - mark objects in the image with rectangles\n\n",
+        "Pattern: Object Detection with Confidence Scores\n  - Description: Detecting objects and providing confidence scores for each detection.\n  - Cases:\n    - detect objects with confidence levels\n    - provide confidence scores for detected items\n    - show detection certainty for each object\n\n",
+        "Pattern: Object Detection with Labels\n  - Description: Detecting objects and labeling them with their respective names.\n  - Cases:\n    - label detected objects\n    - tag items in the image\n    - assign names to detected objects"
+    ],
+    "Video classification": [
+        "Video classification",
+        "Pattern: Activity Recognition\n  - Description: Identifying and categorizing different activities or actions within a video.\n  - Cases:\n    - recognize the activities in this video\n    - classify the actions performed\n    - detect what people are doing\n\n",
+        "Pattern: Object Detection\n  - Description: Identifying and classifying objects present in a video.\n  - Cases:\n    - detect objects in the video\n    - classify items seen in the footage\n    - identify objects in each frame\n\n",
+        "Pattern: Scene Analysis\n  - Description: Analyzing and categorizing different scenes or environments within a video.\n  - Cases:\n    - analyze the scenes in this video\n    - classify the environments shown\n    - detect different settings\n\n",
+        "Pattern: Event Detection\n  - Description: Identifying and categorizing specific events occurring within a video.\n  - Cases:\n    - detect events in the video\n    - classify significant occurrences\n    - identify key events\n\n",
+        "Pattern: Emotion Recognition\n  - Description: Identifying and categorizing emotions displayed by individuals in a video.\n  - Cases:\n    - recognize emotions in the video\n    - classify facial expressions\n    - detect emotional states\n\n",
+        "Pattern: Content Moderation\n  - Description: Identifying and flagging inappropriate or sensitive content within a video.\n  - Cases:\n    - moderate the video content\n    - detect inappropriate scenes\n    - flag sensitive material\n\n",
+        "Pattern: Genre Classification\n  - Description: Categorizing videos into different genres based on their content.\n  - Cases:\n    - classify the genre of this video\n    - detect the type of video\n    - categorize the video content\n\n",
+        "Pattern: Video Summarization\n  - Description: Creating a concise summary or highlights of a video.\n  - Cases:\n    - summarize the video\n    - generate video highlights\n    - create a brief overview\n\n",
+        "Pattern: Sentiment Analysis\n  - Description: Analyzing and categorizing the overall sentiment or mood conveyed in a video.\n  - Cases:\n    - analyze the sentiment of the video\n    - classify the mood\n    - detect the overall tone"
+    ],
+    "Audio Speech-to-Text": [
+        "Audio Speech-to-Text",
+        "Pattern: Transcription of Audio Files\n  - Description: Converting spoken words in audio files into written text.\n  - Cases:\n    - transcribe this audio file\n    - convert the podcast to text\n    - get the transcript of the meeting recording\n\n",
+        "Pattern: Real-Time Speech Recognition\n  - Description: Converting spoken words into text in real-time.\n  - Cases:\n    - transcribe live speech\n    - convert real-time audio to text\n    - recognize speech as it happens\n\n",
+        "Pattern: Language Identification\n  - Description: Determining the language spoken in an audio file.\n  - Cases:\n    - identify the language of this audio\n    - detect the spoken language\n    - find out what language is being spoken\n\n",
+        "Pattern: Speaker Diarization\n  - Description: Identifying and distinguishing between different speakers in an audio file.\n  - Cases:\n    - separate speakers in the conversation\n    - identify different speakers in the meeting\n    - distinguish between multiple voices\n\n",
+        "Pattern: Audio Segmentation\n  - Description: Dividing audio into segments based on changes in speaker or content.\n  - Cases:\n    - segment the audio by speaker\n    - divide the podcast into sections\n    - split the interview by topics\n\n",
+        "Pattern: Noise Reduction\n  - Description: Enhancing audio quality by reducing background noise before transcription.\n  - Cases:\n    - reduce noise in the audio file\n    - clean up the background noise\n    - enhance audio clarity before transcription\n\n",
+        "Pattern: Custom Vocabulary\n  - Description: Adding specific words or phrases to improve transcription accuracy.\n  - Cases:\n    - add custom vocabulary for transcription\n    - include specific terms for better accuracy\n    - update the vocabulary with industry-specific jargon"
+    ],
+    "Audio event classification": [
+        "Audio event classification",
+        "Pattern: Event Detection\n  - Description: Identifying specific events or sounds within an audio clip.\n  - Cases:\n    - detect gunshots in the recording\n    - identify instances of glass breaking\n    - find occurrences of dog barking\n\n",
+        "Pattern: Environmental Sound Classification\n  - Description: Classifying general environmental sounds in an audio clip.\n  - Cases:\n    - classify background noises\n    - determine the type of ambient sound\n    - identify urban soundscapes\n\n",
+        "Pattern: Speech and Non-Speech Segmentation\n  - Description: Differentiating between speech and non-speech segments in an audio file.\n  - Cases:\n    - segment speech from background noise\n    - identify non-speech intervals\n    - separate spoken words from music\n\n",
+        "Pattern: Audio Scene Analysis\n  - Description: Analyzing the overall scene or context of an audio recording.\n  - Cases:\n    - analyze the audio scene\n    - determine the context of the recording\n    - classify the environment based on sound\n\n",
+        "Pattern: Anomaly Detection\n  - Description: Identifying unusual or unexpected sounds in an audio clip.\n  - Cases:\n    - detect anomalies in the audio\n    - find unusual sounds\n    - identify unexpected audio events\n\n",
+        "Pattern: Multi-Label Classification\n  - Description: Assigning multiple labels to an audio clip based on detected events or sounds.\n  - Cases:\n    - classify multiple sounds in the clip\n    - assign several labels to the audio\n    - identify all events in the recording\n\n",
+        "Pattern: Real-Time Monitoring\n  - Description: Continuously analyzing audio streams to detect and classify events in real-time.\n  - Cases:\n    - monitor audio for specific events\n    - real-time detection of sounds\n    - continuous audio classification\n\n",
+        "Pattern: Audio Quality Assessment\n  - Description: Evaluating the quality of an audio recording based on detected events or anomalies.\n  - Cases:\n    - assess the audio quality\n    - identify quality issues in the recording\n    - evaluate sound clarity and disturbances"
+    ]
+}

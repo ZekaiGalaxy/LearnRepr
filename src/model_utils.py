@@ -28,7 +28,7 @@ def llm_pred(api_desc, api_desc_embed, test_data, test_data_embed, args, record_
 	for api_id, api in enumerate(apis):
 		prompts = []
 		for idx in range(len(test_data[api])):
-			if args.choice_model == 'gpt4':
+			if args.choice_model == 'gpt4' or args.choice_model == 'gpt4o':
 				prompt = f"""Which one is the most suitable API to complete the user's instruction?
 {test_data[api][idx]}
 You should refer to the patterns of the API and output 'I choose (Option [Letter])' as the answer."""
@@ -53,7 +53,7 @@ ONLY output 'I choose (Option [Letter])' as the answer without any explanation.
 			'preds': preds,
 			'labels': labels
 		}
-	if record_prompt and args.choice_model == 'gpt4':
+	if record_prompt and (args.choice_model == 'gpt4' or args.choice_model == 'gpt4o'):
 		save_prompts(all_prompts, args)
 		save_responses(all_responses, args)
 	return results
@@ -101,8 +101,9 @@ def retriever_topk_llm_pred(api_desc, api_desc_embed, test_data, test_data_embed
 		test_embed = torch.tensor(test_data_embed[api])
 		top_k_indices = retrieve_topk(test_embed, api_matrix, k) # [ins, k]
 
+
 		for idx, top_k in enumerate(top_k_indices):
-			if args.choice_model == 'gpt4':
+			if args.choice_model == 'gpt4' or args.choice_model == 'gpt4o':
 				prompt = f"""Which one is the most suitable API to complete the user's instruction?
 {test_data[api][idx]}
 You should refer to the patterns of the API and output 'I choose (Option [Letter])' as the answer."""

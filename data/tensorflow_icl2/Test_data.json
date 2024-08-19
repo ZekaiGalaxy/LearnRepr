@@ -48,6 +48,12 @@
         ]
     },
     {
+        "prompt": "Instruction: Write an example code to use a pre-trained model to convert a sentence \"My cat is sitting on the porch\" into high-dimensional vectors.\n###Input: My cat is sitting on the porch",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
         "prompt": "Instruction: Analyze a collection of images of pets to obtain meaningful features and club them into categories based on their appearance and other characteristics.",
         "completion": [
             "Image feature vector"
@@ -1068,6 +1074,12 @@
         ]
     },
     {
+        "prompt": "Instruction: There is a need to segment images of a park area with trees and people, and distinguish the trees from people.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
         "prompt": "Instruction: Our security firm needs an image analysis solution to detect cars and pedestrians from CCTV images.",
         "completion": [
             "Image object detection"
@@ -1107,6 +1119,12 @@
         "prompt": "Instruction: We want to recognize different types of dogs in images for an upcoming app. Help us with a model to get the image features.",
         "completion": [
             "Image feature vector"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am planning my garden, please help me segment plants in an image for better landscape planning.",
+        "completion": [
+            "Image segmentation"
         ]
     },
     {
@@ -1209,6 +1227,12 @@
         "prompt": "Instruction: We are interesting in analyzing text messages to recommend interesting articles to our users. For this, we need to create an embedding for each message.",
         "completion": [
             "Text embedding"
+        ]
+    },
+    {
+        "prompt": "Instruction: Could you help me to find a quick way to rate similarities between my blog posts?",
+        "completion": [
+            "Text classification"
         ]
     },
     {
@@ -1329,6 +1353,12 @@
         "prompt": "Instruction: We have a collection of animal photos, and we want to obtain a feature vector from each photo in order to properly organize them.",
         "completion": [
             "Image feature vector"
+        ]
+    },
+    {
+        "prompt": "Instruction: I took a picture of a street and want to separate the vehicles, people, and buildings in the scene.",
+        "completion": [
+            "Image segmentation"
         ]
     },
     {
@@ -1551,6 +1581,12 @@
         "prompt": "Instruction: Show me how to get the semantic similarity between two sentences.\n###Input: \"I am going to the store to buy groceries.\", \"I will visit the market to purchase food items.\" ",
         "completion": [
             "Text embedding"
+        ]
+    },
+    {
+        "prompt": "Instruction: I took a photo of my friends playing soccer. I am making a collage and we need to remove the background from the photo, segmenting the players in the image.",
+        "completion": [
+            "Image segmentation"
         ]
     },
     {
@@ -2676,6 +2712,12 @@
         ]
     },
     {
+        "prompt": "Instruction: I need to separate different objects in an image, like differentiate the road, house and tree.",
+        "completion": [
+            "Image segmentation"
+        ]
+    },
+    {
         "prompt": "Instruction: We want to analyze paintings based on their visual characteristics and need a way to represent them numerically.",
         "completion": [
             "Image feature vector"
@@ -3276,6 +3318,12 @@
         ]
     },
     {
+        "prompt": "Instruction: There are a bunch of user reviews about our new product, and we need assistance categorizing them into different sentiments.",
+        "completion": [
+            "Text classification"
+        ]
+    },
+    {
         "prompt": "Instruction: We have images that we want to analyze, and I hope I can find a way to extract features from these images for further analysis.",
         "completion": [
             "Image feature vector"
@@ -3654,6 +3702,12 @@
         ]
     },
     {
+        "prompt": "Instruction: I'm planning to do sentiment analysis on a bunch of news articles. Help me convert the article content to 20-dimensional vectors.",
+        "completion": [
+            "Text language model"
+        ]
+    },
+    {
         "prompt": "Instruction: In order to perform image classification using a machine learning model, I need to generate feature vectors for the given images.",
         "completion": [
             "Image feature vector"
@@ -3711,6 +3765,12 @@
         "prompt": "Instruction: Can you help me create a new image classification model by using a pre-trained model to extract image features and then build my custom classifier on top?",
         "completion": [
             "Image feature vector"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to analyze product reviews and create a classifier to automatically sort them based on their positive or negative sentiment.",
+        "completion": [
+            "Text classification"
         ]
     },
     {
@@ -4017,6 +4077,12 @@
         "prompt": "Instruction: We want to analyze a collection of images for their features and create a summary of their distinct characteristics.",
         "completion": [
             "Image feature vector"
+        ]
+    },
+    {
+        "prompt": "Instruction: We just took many different images of the front of a house and want to isolate the windows part from the whole image.",
+        "completion": [
+            "Image segmentation"
         ]
     },
     {

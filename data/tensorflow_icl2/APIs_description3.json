@@ -1,0 +1,80 @@
+{
+    "Text language model": [
+        "Text language model",
+        "Pattern: Embeddings Creation\n  - Description: The process of converting text into numerical vectors.\n  - Cases:\n    - create embeddings\n    - work out the embeddings\n    - transform these news article's headlines into numerical vectors"
+    ],
+    "Text classification": [
+        "Text classification",
+        "Pattern: Model Utilization\n  - Description: Requests for using or loading pre-trained models for text classification tasks.\n  - Cases:\n    - load the pre-trained model\n    - recommend a ready-to-use model"
+    ],
+    "Image segmentation": [
+        "Image segmentation",
+        "Pattern: Identifying Regions of Interest\n  - Description: Detecting and highlighting specific areas within a larger image.\n  - Cases:\n    - find areas of potential interest\n    - identify different crop types"
+    ],
+    "Text embedding": [
+        "Text embedding",
+        "Pattern: Semantic Similarity\n  - Description: Determining how similar two pieces of text are based on their meanings.\n  - Cases:\n    - compare the similarity between these two sentences\n    - find how close these paragraphs are in meaning\n    - measure the semantic distance between these documents\n\n",
+        "Pattern: Text Clustering\n  - Description: Grouping similar pieces of text together based on their content.\n  - Cases:\n    - cluster these articles\n    - group similar reviews\n    - organize these documents into clusters\n\n",
+        "Pattern: Sentiment Analysis Preparation\n  - Description: Preparing text data for sentiment analysis by converting it into embeddings.\n  - Cases:\n    - embed these tweets for sentiment analysis\n    - transform these reviews into vectors for sentiment detection\n    - prepare these comments for sentiment evaluation\n\n"
+    ],
+    "Image feature vector": [
+        "Image feature vector",
+        "Pattern: Feature Extraction\n  - Description: The process of extracting meaningful features from an image.\n  - Cases:\n    - extract features from this image\n    - get the image's feature vector\n    - derive key attributes from the picture\n\n",
+        "Pattern: Image Comparison\n  - Description: Comparing two or more images based on their feature vectors.\n  - Cases:\n    - compare these two images\n    - find similarities between the images\n    - match the image with the database\n\n",
+        "Pattern: Image Classification Preparation\n  - Description: Preparing images for classification tasks by converting them into feature vectors.\n  - Cases:\n    - prepare this image for classification\n    - convert the image to a feature vector for classification\n    - ready the image for the classifier\n\n"
+    ],
+    "Image classification": [
+        "Image classification",
+        "Pattern: Object Detection\n  - Description: Identifying and locating objects within an image.\n  - Cases:\n    - detect objects in the image\n    - find all cars in this photo\n    - locate the animals in the picture\n\n",
+        "Pattern: Scene Recognition\n  - Description: Determining the overall scene or environment depicted in an image.\n  - Cases:\n    - recognize the scene\n    - identify the setting of this image\n    - classify the environment shown\n\n",
+        "Pattern: Image Tagging\n  - Description: Assigning descriptive tags or labels to an image based on its content.\n  - Cases:\n    - tag this image\n    - label the contents of the photo\n    - generate tags for this picture\n\n"
+    ],
+    "Image Frame Interpolation": [
+        "Image Frame Interpolation",
+        "Pattern: Smooth Transition Creation\n  - Description: Generating intermediate frames to create a smooth transition between two images.\n  - Cases:\n    - generate in-between frames\n    - create smooth transitions\n    - interpolate frames for animation\n\n",
+        "Pattern: Frame Rate Enhancement\n  - Description: Increasing the frame rate of a video by adding interpolated frames.\n  - Cases:\n    - enhance video frame rate\n    - add frames to increase fps\n    - smooth out video playback\n\n",
+        "Pattern: Slow Motion Effect\n  - Description: Creating a slow-motion effect by interpolating additional frames between existing ones.\n  - Cases:\n    - create slow-motion video\n    - interpolate for slow-motion effect\n    - add frames for slow-motion\n\n"
+    ],
+    "Image pose detection": [
+        "Image pose detection",
+        "Pattern: Human Pose Estimation\n  - Description: Detecting and analyzing the positions and movements of human bodies in images.\n  - Cases:\n    - estimate the pose of the person\n    - detect human body joints\n    - analyze the posture in the image\n\n",
+        "Pattern: Activity Recognition\n  - Description: Identifying and classifying human activities based on detected poses.\n  - Cases:\n    - recognize the activity being performed\n    - classify the action in the image\n    - detect exercise movements\n\n",
+        "Pattern: Gesture Detection\n  - Description: Identifying specific hand or body gestures in images.\n  - Cases:\n    - detect hand gestures\n    - identify the sign language gesture\n    - recognize waving or pointing\n\n"
+    ],
+    "Audio embedding": [
+        "Audio embedding",
+        "Pattern: Audio Feature Extraction\n  - Description: The process of extracting meaningful features from audio data.\n  - Cases:\n    - extract features from this audio clip\n    - get the audio features\n    - analyze the sound characteristics\n\n",
+        "Pattern: Audio Similarity Search\n  - Description: Finding similar audio clips based on their embeddings.\n  - Cases:\n    - find similar audio files\n    - search for audio clips that sound alike\n    - match this audio with similar ones\n\n",
+        "Pattern: Audio Classification Preparation\n  - Description: Preparing audio data for classification tasks by converting it into embeddings.\n  - Cases:\n    - prepare audio data for classification\n    - convert this sound file for classification\n    - transform audio for categorization\n\n"
+    ],
+    "Text preprocessing": [
+        "Text preprocessing",
+        "Pattern: Tokenization\n  - Description: The process of breaking down text into individual words or tokens.\n  - Cases:\n    - split the text into words\n    - tokenize this sentence\n    - break down the paragraph into tokens\n\n",
+        "Pattern: Stop Words Removal\n  - Description: The process of removing common words that do not contribute significant meaning to the text.\n  - Cases:\n    - remove stop words from the text\n    - filter out common words\n    - eliminate non-essential words\n\n",
+        "Pattern: Lowercasing\n  - Description: Converting all characters in the text to lowercase.\n  - Cases:\n    - convert text to lowercase\n    - make all letters small\n    - change the case to lower\n\n"
+    ],
+    "Image object detection": [
+        "Image object detection",
+        "Pattern: Object Identification\n  - Description: Detecting and identifying objects within an image.\n  - Cases:\n    - identify objects in this image\n    - detect items in the picture\n    - find all objects present in the image\n\n",
+        "Pattern: Object Localization\n  - Description: Determining the location of objects within an image.\n  - Cases:\n    - locate objects in the image\n    - find the position of items in the picture\n    - pinpoint where objects are in the image\n\n",
+        "Pattern: Object Classification\n  - Description: Classifying detected objects into predefined categories.\n  - Cases:\n    - classify the detected objects\n    - categorize items found in the image\n    - determine the type of objects in the picture\n\n"
+    ],
+    "Video classification": [
+        "Video classification",
+        "Pattern: Activity Recognition\n  - Description: Identifying and categorizing different activities or actions within a video.\n  - Cases:\n    - recognize the activities in this video\n    - classify the actions performed\n    - detect what people are doing\n\n",
+        "Pattern: Object Detection\n  - Description: Identifying and classifying objects present in a video.\n  - Cases:\n    - detect objects in the video\n    - classify items seen in the footage\n    - identify objects in each frame\n\n",
+        "Pattern: Scene Analysis\n  - Description: Analyzing and categorizing different scenes or environments within a video.\n  - Cases:\n    - analyze the scenes in this video\n    - classify the environments shown\n    - detect different settings\n\n"
+    ],
+    "Audio Speech-to-Text": [
+        "Audio Speech-to-Text",
+        "Pattern: Transcription of Audio Files\n  - Description: Converting spoken words in audio files into written text.\n  - Cases:\n    - transcribe this audio file\n    - convert the podcast to text\n    - get the transcript of the meeting recording\n\n",
+        "Pattern: Real-Time Speech Recognition\n  - Description: Converting spoken words into text in real-time.\n  - Cases:\n    - transcribe live speech\n    - convert real-time audio to text\n    - recognize speech as it happens\n\n",
+        "Pattern: Language Identification\n  - Description: Determining the language spoken in an audio file.\n  - Cases:\n    - identify the language of this audio\n    - detect the spoken language\n    - find out what language is being spoken\n\n"
+    ],
+    "Audio event classification": [
+        "Audio event classification",
+        "Pattern: Event Detection\n  - Description: Identifying specific events or sounds within an audio clip.\n  - Cases:\n    - detect gunshots in the recording\n    - identify instances of glass breaking\n    - find occurrences of dog barking\n\n",
+        "Pattern: Environmental Sound Classification\n  - Description: Classifying general environmental sounds in an audio clip.\n  - Cases:\n    - classify background noises\n    - determine the type of ambient sound\n    - identify urban soundscapes\n\n",
+        "Pattern: Speech and Non-Speech Segmentation\n  - Description: Differentiating between speech and non-speech segments in an audio file.\n  - Cases:\n    - segment speech from background noise\n    - identify non-speech intervals\n    - separate spoken words from music\n\n"
+    ]
+}

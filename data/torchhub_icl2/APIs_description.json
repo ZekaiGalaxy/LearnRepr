@@ -1,0 +1,30 @@
+{
+    "Video Classification": [
+        "Video Classification",
+        "Pattern: Video Analysis\n  - Description: The process of examining video content to extract meaningful information.\n  - Cases:\n    - video analysis\n    - analyze football games"
+    ],
+    "Object Detection": [
+        "Object Detection"
+    ],
+    "Classification": [
+        "Classification",
+        "Pattern: Text Classification\n  - Description: Categorizing text into predefined groups based on its content.\n  - Cases:\n    - classify news articles into categories\n    - categorize customer reviews\n    - sort emails into folders\n\n",
+        "Pattern: Sentiment Analysis\n  - Description: Determining the sentiment or emotion expressed in a piece of text.\n  - Cases:\n    - analyze sentiment in tweets\n    - determine emotion in customer feedback\n    - sentiment analysis of movie reviews\n\n",
+        "Pattern: Language Identification\n  - Description: Identifying the language of a given text.\n  - Cases:\n    - detect language of a text\n    - identify language in a document\n    - language detection in a sentence\n\n"
+    ],
+    "Audio Separation": [
+        "Audio Separation"
+    ],
+    "Text-To-Speech": [
+        "Text-To-Speech"
+    ],
+    "Semantic Segmentation": [
+        "Semantic Segmentation",
+        "Pattern: Object Segmentation\n  - Description: Identifying and separating objects from the background in an image.\n  - Cases:\n    - separate objects from the background in an image\n    - segmenting objects in an image\n    - segment objects in an image\n    - extract objects from a picture",
+        "Pattern: Medical Image Segmentation\n  - Description: Detecting and segmenting abnormalities or specific regions in medical images.\n  - Cases:\n    - detect abnormalities in the scan\n    - segmenting objects in an image based on their class"
+    ],
+    "Text-to-Speech": [
+        "Text-to-Speech",
+        "Pattern: Convert Text to Speech\n  - Description: The process of transforming written text into spoken words.\n  - Cases:\n    - convert text to speech\n    - turning text into speech\n    - converts text into speech\n    - create synthesized speech from text input"
+    ]
+}

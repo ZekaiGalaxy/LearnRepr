@@ -10,23 +10,21 @@ from src.openai_public import *
 from src.utils import *
 import argparse
 import os
-# Embedding: small
-
 
 # Parse Args
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', default='tensorflow', choices=['tensorflow','torchhub','huggingface','lamp7'])
-parser.add_argument('--model', default='gpt4', type=str)
-parser.add_argument('--choice_model', default='gpt4', type=str)
+parser.add_argument('--model', default='gpt4o', type=str)
+parser.add_argument('--choice_model', default='llama3', type=str)
 parser.add_argument('--embedding', default='gte-small', type=str)
-parser.add_argument('--exp_name', default='proxy_llm', type=str)
-parser.add_argument('--num_epoch', default=10, type=int)
+parser.add_argument('--exp_name', default='proxy_v2', type=str)
+parser.add_argument('--num_epoch', default=5, type=int)
 parser.add_argument('--do_train', default=1, type=int)
 parser.add_argument('--do_eval', default=1, type=int)
 parser.add_argument('--api', default=1, type=int)
 parser.add_argument('--device', default=0, type=int)
 parser.add_argument('--retriever_topk', default=5, type=int)
-parser.add_argument('--output_dir', default='output', type=str)
+parser.add_argument('--output_dir', default='output_v2', type=str)
 args = parser.parse_args()
 
 set_api(args)
@@ -38,18 +36,15 @@ args.prompt_path = f'{args.output_dir}/{args.task}_{args.exp_name}/prompts'
 
 # Get data
 APIs_description, APIs, Train_data, Test_data, API_train_data, API_test_data = get_data(args)
-APIs_embed, APIs_description_embed, Train_data_embed, Test_data_embed, API_train_data_embed, API_test_data_embed = get_data_embedding(args, APIs, Train_data, Test_data)
+APIs_embed, APIs_description_embed, Train_data_embed, Test_data_embed, API_train_data_embed, API_test_data_embed = get_data_embedding(args, APIs, APIs_description, Train_data, Test_data)
 print(f"get data done")
 
-args.exp_name = 'proxy'
-
-
-# APIs_description, APIs, API_train_data, API_test_data, APIs_description_embed, API_train_data_embed, API_test_data_embed = debug_data(APIs_description, APIs, API_train_data, API_test_data, APIs_description_embed, API_train_data_embed, API_test_data_embed)
+args.exp_name = 'proxy_v1'
 
 if args.do_train:
     for epoch in range(args.num_epoch):
-        if epoch == 8:
-            args.exp_name = 'proxy_llm'
+        if epoch == 4:
+            args.exp_name = 'proxy_v2'
             args.prompt_path = f'{args.output_dir}/{args.task}_{args.exp_name}/prompts'
             os.makedirs(f'{args.output_dir}/{args.task}_{args.exp_name}', exist_ok=True)
             os.makedirs(f'{args.output_dir}/{args.task}_{args.exp_name}/prompts', exist_ok=True)
@@ -195,14 +190,12 @@ if args.do_train:
             save_file(APIs_description_embed, f'{args.output_dir}/{args.task}_{args.exp_name}/updated_embed_{phase}_{epoch}.pt')
 
 if args.do_eval:
-    args.exp_name = 'proxy_llm'
+    args.exp_name = 'proxy_v2'
     APIs_description = load_file(f'{args.output_dir}/{args.task}_{args.exp_name}/updated_fp_{args.num_epoch-1}.pt')
-    APIs_description_embed = load_file(f'{args.output_dir}/{args.task}_{args.exp_name}/updated_embed_fp_{args.num_epoch-1}.pt')
-    print('Load API Desc and Embed!')            
+    APIs_description_embed = load_file(f'{args.output_dir}/{args.task}_{args.exp_name}/updated_embed_fp_{args.num_epoch-1}.pt')         
 
     # Final Test
     print("Final Test")
-
     train_acc = eval(APIs_description, APIs_description_embed, API_train_data, API_train_data_embed, args, mode='retriever_llm')
     print(f"Train Acc: {train_acc}")
     test_acc = eval(APIs_description, APIs_description_embed, API_test_data, API_test_data_embed, args, mode='retriever_llm')

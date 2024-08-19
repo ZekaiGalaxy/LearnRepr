@@ -1,0 +1,2708 @@
+[
+    {
+        "prompt": "Instruction: Write an API implementation that takes customer reviews as input and extracts features to analyze customer sentiment.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a scientist working in a biotechnology company. I need to find the structure in scientific articles to get insights from them.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are running an online scientific journal. We need to understand and analyze the main topics of a newly submitted biomedical research paper.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is building a chatbot for developers that understands and answers coding questions. The chatbot should understand both natural language queries and code samples.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Extract some features from a Korean text in order to use them for decision making.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Help me to analyze sentiment of customer reviews written in Indonesian language.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I'm composing poetry and want to generate sentences similar to the ones I input to get inspirations.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: You've been hired by a Russian literary magazine. They need an AI that can generate summaries for Russian articles based on their features.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to extract features from unstructured multimodal data like code comments and abstract syntax trees to better understand the code structure.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are given an audio file of a political speech, and we aim to visualize it as a spectrogram to analyze the frequency patterns during speech.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a research organization, and we need to find relevant papers based on the content of a specific paper.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a company building a conversational AI. We want to utilize a pre-trained model to find the best response from a set of possible responses based on a user's question.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is working on a virtual reality project. We need to develop a method that converts textual descriptions of scenes into realistic video content.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is organizing a film festival. We want to create short promotional videos from the text descriptions of the films being shown.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am interested in generating a video from a text description of a scene depicting animals in the wild. Can you help me with it?\n",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: My six year old kid has created a poem and wants a video to illustrate the story. How can I create a video based on the poem?",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A director needs synthetic video clips of various thrilling movie scenes based on the text descriptions he provided.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We would like to generate a short video using the text \"A cat playing piano\" as a prompt.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a Disney-style video for a magical princess playing guitar.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a company working on the development of new materials. For that we need to classify molecular graphs for different properties. Help us to find a machine learning model that works well with graphs.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're developing a game that plays like Grand Theft Auto 5, and we need an AI model to intelligently perform game actions.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client is a travel agency and wants to develop an app that will geolocate the city from an image taken by a user during their trip.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to transcribe a recorded podcast but only text portions spoken by the host and ignore guest comments.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company wants to provide support for multiple languages in our voice assistant. We need to be able to recognize the language spoken by the user.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a team working on a voice assistant, and we need to detect user emotions from their voice input.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We should detect if the given audio contains either a bird, traffic, or a dog barking. The recordings come from a neighborhood setting.\n",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a voice recognition system to recognize digits from 0-9.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an application where children can practice their numbers by saying them out loud and receiving feedback on their pronunciation. We need to classify the spoken numbers from an audio file.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to monitor the speakers present in an audio recording of a meeting to assess their participation in the discussion.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to develop an application that can differentiate between audio containing voice and audio without voice in Indian languages.\n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a voice activity detection model to confirm the presence of human speech in an audio recording from a sitcom.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Implement a solution to process a given audio file and detect speech activity, estimate the speech-to-noise ratio, and the C50 room acoustics.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am working in a call center and want to identify the stages when someone is speaking on a recorded call.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a recording from a meeting and we want to transcribe it. Identify the active voices in the audio file for us.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a phone call operator. Help us implement an audio processing component that will be able to separate speech from silence.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design an application that detects different speakers in an audio conversation and provides the start and end time of each speaker's segment.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to process a conference call recording to find out how many speakers were involved and separate their speech segments.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am developing an online tool for cutting long audio files into shorter clips based on speaker switches, silent pauses or overlapping speech segments. Can you guide me on how I can achieve this?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team is working on a project that involves programming a robot to organize objects in a warehouse. We need to use the most suitable model for the task.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to develop a robot arm for a warehouse, which must pick objects of different shapes.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is developing an autonomous robot to navigate the office and pick up objects. Implement a model for visual understanding.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a team of tech enthusiasts that want to build a smart robot. Using the available model to identify nearby objects and decide what to do with them would be helpful. How can we achieve this?",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a human resources company and need to build a classifier to identify the most suitable applicants for the available job positions. Extract features from a given text.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to extract features from biomedical text for further analysis, such as clustering or visualization.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Given a set of biomedical terms, find their vector embeddings that capture meaningful relationships between them.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: What are the key features of a piece of text?",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a code-search tool for our internal programming project. We need to extract features from the code and the accompanying text.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: For a project, an application needs to extract features from a medical text to perform some analysis.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am searching for a great all-around audio model that will work in a variety of specific applications such as audio classification, speaker identification, and emotion recognition.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have a dataset in the Indonesian language, and I want to get the hidden representation of the data using a model specialized in the Indonesian language.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company develops an IDE. We need to analyze the source code written by developers and extract features for better code recommendations.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a linguist studying Russian language, I want to analyze an input text according to the relations between sentences, and ultimately, reveal patterns and insights within the text.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Produce sentence embeddings for our company's customer support system to help them better understand customer inquiries and responses.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company wants to analyze audio files to identify the type of content in the audio. We need to understand the features of the audio files.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to implement a search engine with text clustering in different languages. Can you suggest a suitable model for extracting multi-language sentence embeddings?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team is developing a machine learning algorithm to recommend research papers in order to improve scientific productivity. We would like to extract meaningful representations of papers to recommend.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a large set of information and we need the model to retrieve the most relevant information to a given query.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a video production company that wants to use AI to generate video clips from text descriptions.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to produce a short video summary based on a text description of an event.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are presenting a new tool that can convert English text into videos which will have Bruce Lee showcase the given text.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're here at the product launch of a new virtual assistant. It can create videos using input text. Tell us about it.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: The client is launching a new shoe brand and needs a video ad showing a person jumping rope while wearing their shoes.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company aims to build a product that generates videos from text descriptions. We need to create a video of \"Spiderman surfing.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our marketing team is preparing a promotional campaign. They need a video showing a dog playing with a frisbee.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a short video based on the following text: \"A dog plays with a ball in a park.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need a video of a magical princess playing guitar in modern Disney style.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Generate a 15-second video for an advertisement campaign promoting a new eco-friendly car.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a chemist. I would like a machine learning model to help me classify molecules based on their properties. Design a model to help me achieve this goal.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a researcher in the field of material science, I need a graph model that excels at predicting the quantum properties of material.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need a code that trains a neural network on the MNIST dataset with a specific data cap, that can be further used for game applications like GTA5.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a biomedical researcher, and I need to classify an image of a cell into various types of cell stage.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: The tourism company needs a tool to automatically recognize the location of tourist photos from a list of possibilities.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are having a meeting in office. Implement a pipeline that detects when someone speaks during the meeting.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team is working on a speech translation app. We need our system to identify the language of a user's speech before translating it.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to discern the emotions in an audio recording of a person speaking.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need a tool that transcribes my voice notes from numbers to text.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We've been having problems with spam calls lately. I am wondering how I can use this model to quickly identify the type of the call, so I know whether to answer or not.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a language filtering service. We need to identify the language of an audio clip.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Help me create an application to distinguish between noise and human voice in a meeting recording.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: In order to automatically transcribe a conversation, we first need to detect when someone is speaking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a meeting summarization solution. We want to estimate voice activity in the audio and provide a clean transcript of the meeting.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our call center just started supporting Indian languages. We need to determine whether there's ongoing speech or silence in the customer calls.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop an application to detect active voice in an audio to help with transcription tasks and improve the user experience.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to implement a feature to know when someone is speaking or not in a video call.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: You're an AI personal assistant. The user has a long meeting recording and wants to detect voice segments for efficient note taking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We'd like to build an application that takes a prerecorded audio file and detects all the instances of voice activity using a pretrained model. The application should also be able to handle overlapped speech detection and resegmentation tasks.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a collection of recorded meetings and conferences that need speaker diarization to separate the speakers in the audio recordings.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am writing an audio processing application that will automatically analyze audio recordings of telephone conversations. I want to separate the voice tracks of each speaker and identify if they are talking simultaneously. Please provide a code example of how I can achieve this.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have a toy factory and need to build a robotic arm that assembles toys. I want to analyze and make decisions based on its vision.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop the next-generation robotic hand that can grasp objects in a refined 6D space.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a code snippet that loads the VC-1 model from Hugging Face Transformers, processes an image, and gets its embedding for a robotics task.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an autonomous robot to work in a warehouse. Please guide us to use the VC-1 model to process egocentric video data.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to improve the search functionality on our website by converting texts into features that can be used for semantic similarity comparisons.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: For an ongoing healthcare project, we need to get useful features from a given biomedical text data.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: In your research paper, you need to find similarities and differences between specific medical terms in order to draw conclusions and make recommendations.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is developing a new programming language, and we want to identify similar code segments from high-rated repositories. The plan is to use pretrained weights for CodeBERT.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze the trend of topics discussed in a Korean news text. Please provide a code that extracts features from the text for further analysis.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Analyze the audio files collected from a call center to gather insights about customer preferences and trends.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze medical terms and identify their embeddings to build a medical glossary for an app. Please help in using the appropriate API.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a recommendation system that suggests articles to readers. We need a representation of the article texts to recommend related articles.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a linguistic research institute, and we need to perform feature extraction on a corpus of Russian text for further analysis.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need a recommendation system for a student writing an essay based on input essays. It should rate other essays that are semantically similar.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: The task is to analyze source codes and identify patterns based on their code comments and Abstract Syntax Trees (AST) for our security systems.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: For a project, the team needs to visualize the spectrograms of bird vocalizations in order to analyze their patterns. To achieve this, they should obtain the spectrograms for a set of audio files.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our business is expanding worldwide. We want to build an automated translation system that handles human translations comparing the sentences' similarities across multiple languages.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We would like to sort the documents by similarity in Python to classify the research papers using document-level embeddings.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to create an AI-driven search engine, and we want to use the best performing model for searching and ranking the text from large databases.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a film producer, I need a tool that could create a short video sequence based on a given script to visualize a specific scene.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a short video sequence featuring a panda playing the guitar.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create a video clip based on the following description text: \"A dog running happily in the park\".",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company offers custom video greeting cards. We would like to create a video based on the given text \"A joyful dancing penguin with a birthday cake",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company wants to develop an app that can create video gags from text inputs. We need a model to generate a video from text.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Propose a solution for generating educational videos from user input.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a video advertisement for a new smartphone showcasing its features.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to create a short video clip that showcases a superhero-themed pizza commercial. The commercial should involve Spider-Man delivering pizzas to customers in a city setting. The video should be 5 seconds long and 256x256px dimensions.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a scientific research company, we are currently researching new chemical compounds. We need to classify molecules of the newly discovered compounds to determine their properties.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a chemical dataset involving various chemical molecules and we want to compute the properties of each molecule.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a recommendation system for a video game that matches game preferences with sample game clips and trained AI model.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: A medical research institute wants to automatically classify microscopy images of cells. They need an AI model to identify the type of cell present in the images and classify them into categories such as epithelial, mesenchymal, or immune.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: The marketing team needs assistance in analyzing customer feedback through phone calls. We need to identify only the parts of the audio where customers are speaking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a large number of audio recordings of people reading numbers from 0 to 9. We need to create a system to identify the number pronounced in each audio recording.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have a smart home device, and I need it to classify the digits spoken by users, so that I can control my home devices accordingly.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to build a real-time speech translation device to identify the language being spoken in any audio file.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: A major customer is developing a voice-activated device for their elderly customers, and we need to recognize the spoken commands.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: The client needs an algorithm to detect which portions of their recorded meetings contain speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have an audio clip of conversation between two people in the Indian language. I want to segregate individual voices of the speakers.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an online meeting app, and we need to detect when participants are speaking during meetings.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Detect if audio contains voice or not for a transcription service.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company is building a product to improve audio quality in video conferences. We need to detect voice activity and filter out background noise.\n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to build a mobile application that can detect the active voice of speakers in a recorded audio and process the transcript. Tell me the hyperparameters to use.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are working on an application that identifies natural pauses in speech. Please help us by providing a voice-activity-detection solution.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: In a video-conferencing application, we want to implement a feature that detects when a participant is speaking in order to create transcripts and improve user engagement. We need a solution that can detect voice activity in real-time.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: You are building an automated transcription service for a podcast company and need to identify who is speaking in each segment of the audio files.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I recorded a meeting from my phone, and now I want to split the conversations between different speakers. How do I do this?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a robotic arm that can grasp objects based on the trained model.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our goal is to create a tool to automate certain tasks in a warehouse. The tool should be able to perform actions like picking up an object, stacking, and sorting items.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a car company; we are building an autonomous vehicle that navigates in unknown indoor environments such as parking lots. We require the system to identify its surroundings and make intelligent decisions.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a robot vision system capable of recognizing objects and navigating through an indoor environment, such as an office or a home, to perform specific tasks.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a customer review we need to analyze, extract the features, and place into a support vector machine (SVM) model for classification.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a pharmaceutical lab and want to extract important context from research papers to summarize findings.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a software development company, we want our virtual assistant to help employees by generating code templates that can be used as a starting point based on their code query.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are working on a voice assistant that integrates with various smart devices. The project requires feature extraction from an audio sample to analyze actions.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a doctor doing research on medical terms. I need to extract features from medical text for further analysis.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a robotics research team working on audio-event detection and localization. We need to process audio from microphones placed around our environment and extract spectrogram features.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a project that extracts features from given Python code for any Machine Learning-based software analytics problem.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a social network for language learners that supports multiple languages. When a user enters a new phrase or expression, they want to learn in their target language, we want to provide the nearest matching expressions in our database that have similar meanings.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop an embedded model to create document-level embeddings of a list of research papers.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Implement a product where clients can ask questions about products or destinations, and the system will provide answers based on contextual information.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to implement a future classroom system where I can input a sentence, and a short video is generated relevant to that sentence, like a visual aid for my students.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Help a creative team generate a short video according to a given English text description.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are an advertising company developing commercials for our clients. Generate a video clip from a description of our clients' products.\n###Input: Generate a clip for this product: \"Introducing our newest line of athletic sneakers, designed to provide maximum support and comfort during your workouts. Stay ahead of the competition with our cutting-edge technology and sleek design.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a multimedia production company, and we need to create a video based on a script. Can we use a GPT to get this generated?",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am writing a script for an educational video on biology. Can you generate a video using the text of my script?",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A toy manufacturing company would like to visualize a new concept based on a description. Generate a video of a remote-controlled robot walking on a playground.\n###Input: <<<prompt>>>: A remote-controlled robot walking on a playground",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a video-production company and we want to create a text-to-clip simulator to help enhance the collaboration of production with customers and show what a potential completed video might look like based on their textual description input.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to convey the story of a bear enjoying a beautiful sunset in the forest through an AI-generated video.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: To create a software for analyzing chemical molecules, we should predict their properties with a pre-trained model.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: At the company, we are working on a drug discovery project to develop new medicines for treating diseases. Please provide us with useful information from the Graphormer-based model.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client is a simulation company. They want a neural network model that is trained on MNIST dataset with a specified data cap.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: The biomedical research department needs to classify microscopy images according to their cell types. We need a system for this.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team wants to develop a software to detect the active speech from a recorded conference call.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our platform is an e-learning and content creation platform, we would like to analyze the emotion of our users' voices in our video feedback system.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a mechanism to identify a certain sound from an audio sample.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our audio dataset contains recordings of spoken digits between 0 and 9. We'd like to identify the digit spoken in each audio file.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to develop a system that can recognize the language being spoken in various audio recordings. What do I need in order to do this?",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a way to evaluate spoken numbers of a user from 0 to 9.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Build an AI powered voice assistant that can detect when multiple people are talking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: In a video conferencing application, we would like to implement a feature to suppress background noise. To build this feature, we first need to identify whether there is any background noise.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to process a podcast to distinguish between speech and silence sections for better comprehension.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our customers are phone conversation analytics companies and they are looking for insights from phone call multichannel audio recordings. Detect any conversation to prevent dead air during phone calls.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a smart headphone manufacturer, and we want the device to automatically pause music playback when the user starts talking. Please help analyze the audio coming from the microphone to detect when the user speaks.\n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The managers at our call center need to have a tool that helps them differentiate between when there's an actual voice on a call and when there's silence or background noise. How can we help them with this?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company has a collection of audio recordings with multiple speakers, and we need to determine the speakers' turns.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to detect voice activity from a meeting to create transcripts of only the segments in which an individual is speaking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are organizing an online conference call. We'd like to get voice activity detection during the live call.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have some interviews and want to have a clear structure by diarizing each speaker in the discussion.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Implement a tool which can be used to detect voice activity, overlap speech detection, and re-segmentation for different recordings.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a robotics assistant that can learn and make decisions to perform specific tasks using the Antheia/Hanna model.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company designs robotic arms for manufacturing. We want to implement a model to improve the grasping ability of the arm to ensure stable grasping of various objects.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: A home robot project is in progress. We are building a robot that can interact with the various objects found in a home environment. Extract useful embeddings from the images of these objects.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a marketing analyst and want to extract features from tweets for better understanding of social media sentiment. ",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Analyze the features of text written in Korean for a better understanding of the context and emotion.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am making a multilingual decision-support system app that transfers smartphone captions to different languages. Add the feature to classify Indonesian sentences text to retrieve the hidden context.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to extract features from a medical document written in English. The physician mentions symptoms and medical conditions in the text.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am building a voice assistant for iOS, and I need to understand different accents in English, so I should convert the input speech into a text vector.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our startup aims to build an auto-completion tool for programming languages. Help us extract features from source code.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We would like our model to read two sentences and determine if they are semantically similar.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our music streaming service wants to analyze the audio content of songs to create playlists for different moods. We'll need to extract audio features from the songs.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're making a multilingual website for an international event planning company. It is crucial to be able to match user requests to event descriptions. We need to extract features from sentences in multiple languages.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Help me build a program to extract meaningful insights from the following paragraphs of two research papers to determine their relevance.\nPaper 1:\nTitle: Logical Layout Analysis of Scientific Documents\nAbstract: We present a method for the logical layout analysis and information extraction for scientific documents using an image processing perspective.\n\nPaper 2:\nTitle: Optimization of Geothermal Well Placement for Maximum Production\nAbstract: This study presents a methodology for geothermal well placement optimization using artificial intelligence and metaheuristic algorithms with geologic and reservoir simulation data.\n",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need a system to answer questions based on the given context. Build an API that can retrieve information from the given statements.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a synthesized video of a dog playing with a Frisbee in the park based on a text input.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to generate a bird-themed video with the story of a bird saving a forest from a fire, with emphasis on a majestic bird flying above the flames.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are organizing an event, where we want to show storytelling in the form of short videos. Assist us in generating one video based on the given text: \"A fox and a crow fought for a piece of cheese.\"\n###Input: A fox and a crow fought for a piece of cheese.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client is a filmmaker who wants to create short videos for social media based on popular quotes. Can you convert the quote, \"The only way to do great work is to love what you do,\" into a short video?\n\n###Input: \"The only way to do great work is to love what you do.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a system that can generate short video clips from a given textual description of a scene.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a 5-second video clip of Spiderman surfing.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to create a short animated video based on the text prompt \"A rocket launching into space.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a video for our social media advertisement campaign. The video should show a happy family enjoying a beach vacation.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're a team working on molecular modeling and exploring new molecules' potential. We'd like to leverage recent advancements in ML to classify molecules based on their graph structure.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a software agency and we just built a desktop application for our client. The client is a financial institution that needs to recognize the handwritten digits on checks.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: A medical technology company that develops software to automatically diagnose diseases from medical images requires us to build a system that can identify potential diseases within a given image.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is creating a new app which allows people to find the location of an image by analyzing the image itself. We need to find a suitable method for achieving this.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our podcast platform wants a feature that shows when a person is talking during the show. For this purpose, we'd like to implement a function to detect the active speech portions in a podcast audio file.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: A movie production company is compiling a database of movies from different countries. They need to identify the language of the film based on the audio.\n",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am interested in categorizing audio files depending on the content of the audio. Do you have a way to accomplish this task?\n",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create a mobile app that recognizes numbers from zero to nine by listening to them. Please show me how to use the model for this task.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: For a school project, some kids will say a number from 0 to 9, and the AI-based system has to recognize and classify the number accurately.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are classifying the emotions from a given local audio file using Hubert.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing an online communication platform. To improve user experience, we need to predict the language spoken in audio clips.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We wish to create a service to transcribe audios from customers who speak Indian languages. We need to detect voice activity and discard the silent parts.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team needs a solution to detect voice activity in audio recordings from our conference meetings.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a call center and want to automatically analyze when a speaker starts talking and when stops talking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team is creating an application that filters out human speech from background noise. Can you suggest a suitable API for voice activity detection?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our new voice assistant can make calls to users. An important feature developers requested is detecting silence during a call. We need to understand when the user has stopped talking in order to make important decisions.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Analyze a recorded conversation for detecting the presence of voices and overlapping speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: A team is developing an audio conferencing app and needs to improve the audio quality for the participants by monitoring background noise and reverberation. \n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We urgently require a way to remove the dead portions of an interview, such as silent or irrelevant parts, while conserving the main speaking portions.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: There is an important company meeting, and we want to analyze the audio to see who spoke when. We need to separate the speakers' voice for the analysis.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: In an office communication system, we need to detect who is speaking at what time and if there are overlapping voices.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to develop a robot-controlled system for picking up objects. Can you help me with learning model suggestions for grasping objects in 6D?",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Can you demonstrate how to embed an image for robotics using a pretrained model and then use it for object manipulation in a factory?",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a robot to help in the warehouse. The robot should be able to interact with objects for stocking and inventory management.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to deal with text data which has unique features. Create a feature extraction pipeline to analyze and extract features from text data.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to understand and create a relationship between different chemicals in a biomedical research paper.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client is a medical research center. They requested a tool that can analyze the relationships between different biomedical entities.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need your help in extracting features from the source code. Any hints on how to do it?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a doctor, and I need to detect lung sounds in patients' audio recordings. Could you help me analyze the audio data and extract relevant features?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: An Indonesian company wants to repurpose a BERT model to assess their social media marketing efforts to make it in their language.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a medical student, I am building a search engine for medi terms that returns the most relevant medi terms. I want to extract embeddings for a given medical term so my search engine can find related terms.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to create a recommendation engine that will find citations that are similar to a selected passage of text.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have multiple audio files of people speaking, our team wants to analyze some extracted features to find patterns for a research project.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Recommend a movie soundtrack for a user based on their past listening history which includes audio features and other relevant information.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am building a model to extract the high-level features of a given text, which will be used later for a recommendation engine.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Build a multilingual search engine. I need to extract the features from English and Chinese sentences and compare their similarity.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are trying to recommend research papers to students. We need to generate document-level embeddings of research papers.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to build a question-answering system that finds the most relevant answer from a list of given contexts.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a video from a given text describing a scene. User wants a visualization of the scene with a sunrise over the ocean.\n\n###Input: {\"text\": \"A beautiful sunrise over the ocean, with waves gently crashing on the shore.\"}",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Generate a video about a day in the life of a software engineer for our conference.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our user research team wants to know whether we can create video for advertisement by just describing the advertisement.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am designing an advertisement for a new smartphone, and I want to create a video showing people using the smartphone in everyday situations. Can you suggest a model that can translate a description into a video?",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A recipe text is provided. We want to create a video tutorial for this recipe.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our documentary crew needs to get a summary from this narration: \"This is the story of a brave explorer venturing into a dark and mysterious forest. The explorer overcomes numerous challenges and obstacles, discovering ancient ruins full of secret treasures. Their journey reveals the rich history hidden within the forest, waiting to be uncovered by those brave enough to venture inside.\" Turn this into a video summarizing the scene.\n###Input: \"This is the story of a brave explorer venturing into a dark and mysterious forest. The explorer overcomes numerous challenges and obstacles, discovering ancient ruins full of secret treasures. Their journey reveals the rich history hidden within the forest, waiting to be uncovered by those brave enough to venture inside.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a platform for virtual tours with generated videos based on user description. Tourists can input a description of a city or tourist spot and see it through generated videos.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our marketing team needs a tool to create short animated video clips based on text descriptions to use in social media campaigns.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A film studio wants to create a trailer for their upcoming animated film \"The Enchanted Forest\". They need a scene where the main character, a brave squirrel, is running away from a fearsome dragon.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create a video that shows a robot playing basketball based on the description provided.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A pharmaceutical company wants to predict quantum properties of molecules. Guide them on the approach with the requirements.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have developed a GTA5 game AI model and now want to apply it for traffic prediction of GTA5.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a medical image classifier tool, and I need to classify an MRI image to match it with a particular condition.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am planning a trip to San Francisco and need to double-check if this image I found online is really from this city.\n###Input: https://huggingface.co/geolocal/StreetCLIP/resolve/main/sanfrancisco.jpeg",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have an audio file containing a group call, and I need to find out the duration of each person's speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: As the head of the research team, I need to classify the spoken language within a variety of audio clips collected from around the world.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to predict emotions from an audio file using the \"Rajaram1996/Hubert_emotion\" model.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are creating an application to automatically identify audio recordings of numbers. We need a solution to classify spoken numbers.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing an AI language tutor and need to know what language the student is speaking in the recorded audio.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client has a kids learning application where kids learn counting from 0 to 9. They want to classify the audio recording of kids counting.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a language teacher, we need a tool to recognize audio samples from learners to teach pronunciation.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze a podcast on Indian heritage and culture for a client who is doing research. Identify the segments where the speaker is talking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a meeting transcription app. We need to detect sections of the audio recording where people are talking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to process a call center conversation and detect the voice activity in it.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Can you detect when someone is speaking in a conversation?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Analyze an audio file to identify if there is any voice activity in it.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a system to help transcribe group meetings and differentiate between different speakers.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Given an audio file, please help me identify when human voices are active, what the speech-to-noise ratio is at any given moment, and estimate the C50 room acoustics.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client has recorded a call with their customers and wants to know which parts of the audio file contain human speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I receive many telephone calls in my office. Create a solution to detect when there are multiple people speaking at the same time in the conversation.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company is interested in the technology that can detect various speakers in a given conversation. We would like to build a product around it.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a virtual assistant for home, which can recognize objects around the house and interact with them. It should be able to understand the environment and differentiate between objects.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company works in developing robotic arms, and we are aiming to improve the efficiency of our robotic arm to pick up objects with greater precision.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to improve my robot's ability to understand natural language commands, please advise a solution",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an AI-powered robot that can autonomously map and navigate an environment. We need to process images captured by robot's camera feed to understand the environment.\n",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze biomedical texts and extract features important for downstream tasks.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our upcoming project requires a summarization of GitHub repositories. We want to automatically generate repository descriptions from the README files and the code inside the repositories.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I work for a humanitarian organization, and we have been receiving a lot of emails from concerned citizens in Indonesia. Can you help me analyze the text and provide the overall sentiment?",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: A healthcare startup needs to extract features from medical terms for their app's search functionality. They asked for your help.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company intends to deal with reviews from our Korean clients, and we need to extract important features from the texts to perform further analysis.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I'm working on a plagiarism detection project and need to calculate the similarity between texts.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Identify the most prevalent features of an audio clip to help us analyze and classify different sounds.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Help me to extract features from a piece of text in Russian that I can use for further analysis or machine learning tasks.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are working on a project related to global customs. We need to calculate the similarity in meaning between two sentences in different languages.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a technology company trying to cluster research papers based on their content for better organization in the database.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create an AI-powered code analyzer to help me identify code pieces that need refactoring. I need a model to extract and process important features.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a model to find the most relevant context for a given query from a list of possible contexts.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want a video of a cat chasing a laser pointer for my presentation.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need a description of a video for an English teaching video with the theme of \u201cgreetings and introductions\u201d for beginners.\n###Input: \"<noinput>\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Can you tell me more about the text-to-video in the Hugging Face? We are working to run a use case on generating a video description of what happened in the provided text. ",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Generate a short video clip of a person practicing Tai Chi based on given text input.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create a video of a flower blooming from a text description using AI.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Can you help me convert the provided Persian text into a video?\n###Input: \"\u0646\u0647\u0627\u06cc\u062a \u0642\u062f\u0631\u062a \u0627\u0632 \u0637\u0631\u06cc\u0642 \u06a9\u0646\u062a\u0631\u0644 \u06a9\u0627\u0645\u0644, \u0648 \u0645\u0647\u0627\u0631 \u0647\u0645\u0647 \u062c\u0646\u0628\u0647 \u0647\u0627\u06cc \u0632\u0646\u062f\u06af\u06cc \u0627\u0633\u062a\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client needs educational video clips for their upcoming e-learning platform. Create a short video based on the provided description.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an advertising campaign and want to create videos based on text descriptions. Generate a video of a dog playing with a ball.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A director wants to make a commercial for a new environmentally friendly electric car. Provide a sample generated video with rainforest trees surrounding a charging station.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our customer, a children's toy company, wants to create an animated video advertisement based on their story concept: \"A brave teddy bear saving a cat from a tall tree\".",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our team wants to predict the energy-critical materials we are working with, categorize them, and identify potential candidates for further study.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: A chemist firm is looking for ways to efficintly find the properties of complex molecules. We should predict the properties of these molecules using graph-based machine learning.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We would like to build a product that takes input from python codes and translates them into tutorials with explanations.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to classify a cell image in terms of whether it shows a healthy cell, an infected cell, or a dead cell.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to create a podcast transription that skips the silent parts. Detect the active speech segments of the audio to help us transcribe only the spoken parts.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a language learning app and we need a feature to detect users' spoken language to match them with native speakers for language exchange.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Please find a way to count the gender of speaker as a blessing to settle the case.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an application to detect audio classes, like animals, humans, and vehicles. The audio sample provided needs classification.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create an autonomous agent that can efficiently recognize audio commands, such as the numbers 0-9.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a voice assistant that recognizes digits from zero to nine in spoken language and sorts them in ascending order.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company has recently entered the global market, and it is essential to identify the languages spoken by the customers in the voice recordings for better customer service.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: The radio station is looking to segment their recordings into individual speaker contributions. Assist them in doing this.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am developing an app to automatically transcribe voice recordings in Indian languages. What can I use to identify which parts of the audio contain speech?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to create an application to track voice activity during video conference calls to record only when someone is talking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to analyze an audio recording from a conference room to identify the quality of the acoustics and separate speech from background noise.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a home security company and detecting an intruder's voice can provide us with valuable information about a possible break-in. Please use voice activity detection to detect the presence of a human voice.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Find if a person is talking in an audio recording, and if multiple people are talking at the same time.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need a script to analyze an audio file to detect who is speaking when, for a house security system with multiple microphones broadcasting in real-time.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to process voice recordings and remove silences to save storage space. Write a code that does voice activity detection and removes the silent parts.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: To analyze court proceedings, we need to find out who is speaking at any given moment.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company is working on a new robotics project. We need to estimate the control parameters of robotic arms.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a robotic hand to automate manual tasks in a warehouse. The robot must be able to pick and sort objects optimally.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a robot that performs object manipulation tasks. We need to use the pretrained VC-1 model to analyze the environment in front of the robot.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a robotics company. We are building an indoors patrolling robot that detects and recognizes objects.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to extract features from a given piece of text for our machine learning algorithm.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I work in a biotechnology company, and I want to analyze scientific papers. Extract and represent the information for better understanding using BioBERT.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have a lot of Indonesian text that I need to extract features from. How can I do this using a pre-trained model?",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a company, we would like to get concise insights from Korean customer reviews in our products.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a project recommendation system that can recommend new code repositories based on users' previous interaction with programming languages. Extract features from the code and description using a pre-trained model.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to transcribe podcasts so that our client can make them available on their platform as text files.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to cluster similar patient symptoms in an emergency room management system, and I am looking for a model for text feature extraction to analyze patient descriptions of their symptoms.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am building a categorization model for my blog posts. They will be categorized based on their similarity. I need a model that can compute the textual similarity of the posts.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Based on the biomedical content of the given abstract, extract the relevant features to be used in a bioinformatics analysis pipeline.\n###Input: \"The ongoing COVID-19 pandemic is caused by the novel coronavirus SARS-CoV-2. The virus primarily affects the human respiratory system, leading to severe pneumonia and potentially life-threatening acute respiratory distress syndrome (ARDS). Recent studies have elucidated the role of the viral spike protein in host cell invasion and the importance of the angiotensin-converting enzyme 2 (ACE2) receptor as a key entry point. Further research is needed to understand the full range of molecular interactions and pathways involved in COVID-19 pathogenesis.\"",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are working in the field of journalism. Can you extract features from the texts written by the journalists in Russian language?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am part of a small team of programmers working on a project. We want to leverage our codebase to provide better indexing of modules, functions, and variables. How do we achieve this using artificial intelligence?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are an online streaming service company that wants to leverage audio analysis to provide personalized recommendations. We require an audio spectrogram transformer for this purpose.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are an international charity organization. We need to compare messages in different languages to know if they convey the same meaning.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our lab would like to use artificial intelligence to analyze a few research papers to get document-level embeddings.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Make a Q&A engine for helping students obtain better understanding of the subject they find difficult. ",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are making a new product advertisement. Please create a short video by using the following description: \"A person enjoying a coffee while reading a book at a cozy coffee shop.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to create a video based on a description of an artwork in a museum.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Describe the process of generating a video clip with a scene where a dog is playing with a ball in a park.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a fitness app that shows live workout sessions. The user speaks about a workout, and the app will display a short video of the workout.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to create an application that can summarize a movie script and provide a brief video description. Please provide the steps and necessary code to complete this task.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am directing a movie and I want to generate a video scene where Spiderman is surfing.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a tool that can generate video snippets based on a textual prompt to showcase the latest technology trends in a conference.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Imagine you work for an animation company. They want you to create a short animation of a giraffe playing basketball using a text-to-video tool.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Predict the property of a specific molecule using Graphormer for a pharmaceutical company.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a gaming company and we need an AI that will perform in-game tasks in Grand Theft Auto 5 (GTA5). It should be able to learn by playing the game with a capped data usage.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our marketing team need to analyze the medical advertisements, detect diseases in them and classify the diseases into different categories.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Write an API call that can recognize spoken languages from audio files I will provide.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to analyze the emotions in an audio clip by using the pretrained Hubert model.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a program to recognize spoken digits from an audio file.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a pipeline to classify audio clips containing spoken digits from 0 to 9.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Based on our podcast collection, we are going to create summaries of it. We have to identify the parts where there is some voice activity.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze a recording from a recent conference call with our Indian partners, could you extract the speech segments?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to determine if there is speech in an audio sample and estimate some acoustics properties of the environment where the recording took place.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building an automated video conferencing system. Now we need to detect when participants are speaking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a smart call center solution that needs to detect when a person is speaking or not speaking in a conversation. ",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Let's say our company's audio recognition department needs software that will analyze audio recordings and detect distinct samples of human voice so they can build an intelligent voice assistant.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have an interview recording that I want to transcribe. I need to separate the speakers from the recording.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are hosting a podcast application, and we need to detect the voice activity, overlaps, and resegmentation in the submitted audio file.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to create a decision-making system for our robotic arm to decide where to grab objects on the conveyor belt.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to develop a reinforcement learning system for a robotic arm to pick up and manipulate objects. It should learn optimal grasping strategies for different objects.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a robot navigation system for an elderly care facility. Design the navigation system for the robot using the VC-1 model.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to extract features from a dataset consisting of product reviews in order to use them in a recommender system.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a medical organization, and we want to create a system that can analyze and provide information about medical articles.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a feature extractor for text content from the Korean web.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am creating an Indonesian language analysis application. I need to generate contextual embeddings for text written in the Indonesian language.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a company working with personal medical devices. We need to extract medical features from free text from device manuals.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have an AI-driven online education system. We want to analyze the vocal nuances and fluency of our students by extracting features from their speech recordings.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As an e-commerce website owner, I would like to identify similar product descriptions to recommend them to the customers.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: My senior scientist wants to extract meaningful features from Russian texts for topic modeling. How should I proceed?",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a music recommendation app. We need to extract features from songs to group them based on their similarity.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our application needs to work with multiple langauges. In order to do this, we want to find the sentence embeddings of user input in different languages.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We compete in the medical diagnosis domain, and we are building a knowledgebase of related research papers. Embed the content of a collection of medical research papers as document-level embeddings.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're curating an archive of historical events. Help us retrieve relevant information about Marie Curie.\n\n###Input: {'query': 'Where was Marie Curie born?', 'contexts': ['Maria Sklodowska, later known as Marie Curie, was born on November 7, 1867.', 'Born in Paris on 15 May 1859, Pierre Curie was the son of Eug\u00e8ne Curie, a doctor of French Catholic origin from Alsace.']}\n",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am organizing a Persian movie night. I want to create a short video to promote the event using the following text: \"Join us for a night of fantastic Persian films! Don't miss the chance to experience the magic of Iranian cinema.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: The marketing team needs a tool to transform textual descriptions of their products into promotional videos. Build a model that can create videos from text.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a sports streaming company and need to create a short video clip based on the text description: \"A footballer scoring an incredible goal from a free kick.\"\n",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a teacher, I want to use a visualization of a frog swimming in water in one of my lessons. I have a sentence to describe this scene, and I want a video based on my description.\n",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A platform for creating personalized video messages needs a tool to generate video content based on user texts.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to make a short educational video about photosynthesis for kids. Describe the steps to generate the video using the text-to-video model.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are aiming to create a short animation based on a textual description, \"A cat playing with a butterfly in a garden.\"",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a company focusing on advertising and marketing, we want to quickly turn announcements and new product descriptions into video clips that visually describe the text.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A toy company has asked us to generate a 10-second video of an animated robot playing football.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a game studio, we are working on a project that uses text inputs to procedurally generate in-game cinematics. We need a solution to create short videos based on textual prompts.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to identify effectively whether a new chemical compound could act as a potential drug candidate based on its molecular structure.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company focuses on molecule modeling, and we want to use a pre-trained model to identify key features in our molecular data.\n",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are trying to add the GTA5 AI model that has some limitations on the data it processes and train it with a limited GPU.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a tool to classify a medical image using BiomedCLIP.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Prioritize identifying the city of an image to use in our app's new image geolocation feature.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: In our business meeting recording, we need to identify the segments where our company leader speaks.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to analyze the emotions expressed in a podcast and want to know the top two emotions for a given audio segment.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a classifier to identify the language of a speech signal in 107 different spoken languages.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our company wants to create a phone application that can classify digit pronunciation from audio files.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have an application that performs user authentication based on voice commands. I want to identify the spoken numbers (0 to 9) from the audio files.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create an AI model to automatically classify numbered audio files from a data set.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a virtual assistant product. We need a feature that can identify the language spoken in the user's audio message.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company plans to develop an AI-based doorbell that detects and distinguishes between different voices in noisy environments. Implement a model for voice activity detection.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our lifestyle website focuses on Indian users, and we are thinking of implementing an automatic voice activity detection system. Can you provide assistance on this topic?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I have some audio files and need to segment them based on when a person is speaking. Can you do that?",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to analyze and transcribe a video conference, but first, we need to know when someone is speaking or not. Recommend a library to detect voice activity.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a voice activity detection model that can be used in conference calls to separate speech from background noise.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: It's necessary to obtain a system to grasp if there are any human voices present in a specific audio file.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our meeting transcription software needs to distinguish speakers and identify silent pauses. We also want the software to be able to handle overlapping speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our client has an audio file of a panel discussion. We need to identify the speaker changes in this audio.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are building a virtual assistant that can analyze audio files and detect voice activities, overlaying speech, and perform speaker segmentation. Suggest an appropriate method.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a robotic system with a language model that can interact with users intuitively, understand their requests, and perform tasks for them.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a grasping algorithm for a robotic arm with a 6-dimensional input that optimizes grasping and motion.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am a researcher in going to build a robot who can follow my commands, just now, I need to load the pre-trained VC1 model and use the model to compute the embedding for an image.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Devise an agent that can work on reinforcement learning tasks for robotics and navigation.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: You work as a data scientist and need to analyze customer reviews. Extract features from the review text for analysis.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Extract features from a medical text to analyze and represent the medical concepts and relationships within it.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to analyze scientific publications on COVID-19 and extract relevant information. Get a unified representation for specific terms.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Design a chatbot for customer service that understands Korean language.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a medical support system developing chatbots for doctors. We require keywords and intensity of each sentence related to medical terminology.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a text-based programming language tutoring system, and we need to find the most similar code snippets to a given code snippet based on their features.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Develop a system that analyzes spoken language for a customer support call center to provide insights on conversation quality.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a content management team, we need to extract semantic textual similarity features from a given sentence pair.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We have a large amount of text data in Russian and we need to get a numerical representation of it to use in Machine Learning algorithms.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want a model that can predict the sentiment of code and its comments. This could help to improve or refactor the code based on its sentiment.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are developing a music discovery app that identifies its genre by analyzing its audio spectrogram. Integrate a feature extraction method to obtain spectrograms from audio files.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We aim to build a research paper recommender system. For this purpose, we want to generate an embedding for each research paper based on the title and abstract.",
+        "completion": [
+            "Natural Language Processing Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're a French company which wants to have a matching system to match French words and English words.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a passage retrieval system to find the most relevant passage that answers a given question from a list of passages.",
+        "completion": [
+            "Multimodal Feature Extraction"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need a solution to create a short video highlighting the positive impacts of renewable energy sources on the environment.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: I am creating a visualizer for a podcast, and I would like to turn the podcast script into an engaging video. What machine learning model would you recommend?\n",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Create a short video explaining the process of photosynthesis in a simple language.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are creating a promotional video for a new app and require the generated video to be based on the provided text description.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our goal is to turn a text story into a video. What is the API to do so?",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: A client is launching a massive advertising campaign for their new surfboard. They need an animated video of Spiderman surfing to attract attention.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: The CEO needs a demo for a multimodal AI that takes a textual description of a scene and generates a short video of that scene.",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: Our digital marketing agency needs to create a video ad for a travel company. The video should showcase a beautiful sandy beach with clear blue water, palm trees swaying, and a couple enjoying the sun.\n",
+        "completion": [
+            "Multimodal Text-to-Video"
+        ]
+    },
+    {
+        "prompt": "Instruction: As a chemist, I am looking for a highly effective machine learning model to predict molecular properties. Suggest me a good model for my project.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: Using our AI system, help our users to create an AI model to control an NPC (van) in the game to properly drive in the traffic.",
+        "completion": [
+            "Multimodal Graph Machine Learning"
+        ]
+    },
+    {
+        "prompt": "Instruction: A medical doctor wants to classify images of X-Ray results into potential categories: \"pneumonia\", \"fracture\", or \"normal\".",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I need to find the location of an image taken in a city, and I have a list of possible city options.",
+        "completion": [
+            "Multimodal Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Find out when a speaker is actively speking during a conversation.\n###Input: <noinput>",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: Some clients are looking for a way to automatically detect the language used in mp3 files of spoken sentences. They would like to have an idea of how the performance of a model like that would be.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to gauge public sentiment about political topics by analyzing vocal recordings and understanding the emotions conveyed in them.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: A mobile app needs to use audio classification to identify numbers spoken by users.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: A client wants us to build a program that can classify audio files based on digit command (0-9). Provide the necessary implementation.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: As an AI curriculum planner, utilize a language identification system to ensure the audio recordings of each lesson are in the appropriate language.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: I'm developing a smartwatch application that can determine the spoken numbers from the user's voice input.",
+        "completion": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "prompt": "Instruction: Detect the active speakers in a meeting recording and differentiate the periods of silence.\n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The user wants to automatically trim a podcast and remove the silence parts. Use an API to detect the spoken parts in the podcast.\n",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The customer service team needs to monitor and record the amount of talking in incoming calls for a study. Please provide a method to breakdown the inputs by voice activity detection.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We are a customer support center. We need to analyze phone call recordings and find when the customers are speaking.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We're creating a podcast application and we want to detect when people are speaking in an audio file.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: The company needs to analyze the conversation data during meetings, and we want to detect active speakers and overlapping speeches.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need a speaker diarization tool for a meeting to identify different speakers and transcribe their speech.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to implement a voice activity detection feature in a meeting transcription app.",
+        "completion": [
+            "Audio Voice Activity Detection"
+        ]
+    },
+    {
+        "prompt": "Instruction: I want to build a robot for household chores. I need to find categories of chores the robot was able to do.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: Implement a robotic arm system for grasping and motion optimization in a warehouse setting.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We want to develop a robot capable of navigating indoor environments and performing object manipulation tasks. Provide a useful pre-trained model for these tasks.\n",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    },
+    {
+        "prompt": "Instruction: We need to support a smart robot to recognize indoor objects and perform manipulations by processing egocentric images.",
+        "completion": [
+            "Reinforcement Learning Robotics"
+        ]
+    }
+]
